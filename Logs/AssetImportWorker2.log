@@ -1,0 +1,1839 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.9f1 (ea401c316338) revision 15351836'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16088 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+49949
+Successfully changed project path to: C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre
+C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9940] Host "[IP] 10.0.5.168 [Port] 0 [Flags] 2 [Guid] 3569276508 [EditorId] 3569276508 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9940] Host "[IP] 10.0.5.168 [Port] 0 [Flags] 2 [Guid] 3569276508 [EditorId] 3569276508 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
+Refreshing native plugins compatible for Editor in 17.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.9f1 (ea401c316338)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 Ti Laptop GPU (ID=0x2420)
+    Vendor:   NVIDIA
+    VRAM:     16189 MB
+    Driver:   31.0.15.4629
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.095253 seconds.
+- Loaded All Assemblies, in  0.523 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 936 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.370 seconds
+Domain Reload Profiling: 1891ms
+	BeginReloadAssembly (166ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (151ms)
+	LoadAllAssembliesAndSetupDomain (148ms)
+		LoadAssemblies (163ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (145ms)
+			TypeCache.Refresh (143ms)
+				TypeCache.ScanAssembly (131ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (1371ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1316ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1183ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (10ms)
+			ProcessInitializeOnLoadAttributes (78ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.737 seconds
+Refreshing native plugins compatible for Editor in 2.07 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.445 seconds
+Domain Reload Profiling: 1181ms
+	BeginReloadAssembly (107ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (566ms)
+		LoadAssemblies (486ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (145ms)
+			TypeCache.Refresh (130ms)
+				TypeCache.ScanAssembly (117ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (446ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (333ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (247ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 3.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3102 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (57.2 KB). Loaded Objects now: 3572.
+Memory consumption went from 125.3 MB to 125.3 MB.
+Total: 4.451700 ms (FindLiveObjects: 0.204400 ms CreateObjectMapping: 0.088100 ms MarkObjects: 4.021500 ms  DeleteObjects: 0.136100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 58402.137557 seconds.
+  path: Assets/AllSkyFree/Cartoon Base BlueSky/Day_BlueSky_Nothing Equirect.mat
+  artifactKey: Guid(73324b55f67f54c7bbf43204788b8bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Cartoon Base BlueSky/Day_BlueSky_Nothing Equirect.mat using Guid(73324b55f67f54c7bbf43204788b8bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '106887b5b5eaff081618d6d30f4082e9') in 0.322545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.497314 seconds.
+  path: Assets/AllSkyFree/Cartoon Base NightSky/Cartoon Base NightSky Equirect.mat
+  artifactKey: Guid(3a6db933fef1d4c759bf21220420505f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Cartoon Base NightSky/Cartoon Base NightSky Equirect.mat using Guid(3a6db933fef1d4c759bf21220420505f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd74979fec2eb2a2100cdf8bb4cc3d9') in 0.131070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.093294 seconds.
+  path: Assets/AllSkyFree/Deep Dusk/Deep Dusk Equirect.mat
+  artifactKey: Guid(c82a334cf5a5e47978749c210cee72a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Deep Dusk/Deep Dusk Equirect.mat using Guid(c82a334cf5a5e47978749c210cee72a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f2e952ed371408a774f15ee27166aad') in 0.095923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/AllSkyFree/Deep Dusk/Deep Dusk__Cam_3_Right-X.png
+  artifactKey: Guid(47551dad0d90646a9a5dac436076f38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Deep Dusk/Deep Dusk__Cam_3_Right-X.png using Guid(47551dad0d90646a9a5dac436076f38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd590d8687beb1e083d03367b1fefc7') in 0.050231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 12.340777 seconds.
+  path: Assets/AllSkyFree/Epic_GloriousPink/Epic_GloriousPink Equirect.mat
+  artifactKey: Guid(fe4e130f9947345a2b213cb5038851a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Epic_GloriousPink/Epic_GloriousPink Equirect.mat using Guid(fe4e130f9947345a2b213cb5038851a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aa429d3b7a643e5762656324a4325ad') in 0.160098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/AllSkyFree/Epic_GloriousPink/Epic_GloriousPink_Cam_5_Down-Y.png
+  artifactKey: Guid(213ae241f43b44b3f961dd8739080120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Epic_GloriousPink/Epic_GloriousPink_Cam_5_Down-Y.png using Guid(213ae241f43b44b3f961dd8739080120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3675596ec3d695c614c3e647493f9319') in 0.037257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.036687 seconds.
+  path: Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset Equirect.mat
+  artifactKey: Guid(cdbb40e11399e4a17882ada20a1b896a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset Equirect.mat using Guid(cdbb40e11399e4a17882ada20a1b896a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d58f23750155f21e844fbf57d66cf8e') in 0.109883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.058891 seconds.
+  path: Assets/AllSkyFree/Overcast Low/AllSky_Overcast4_Low.png
+  artifactKey: Guid(c8f21f62fdb3e43c5b32917c84683698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Overcast Low/AllSky_Overcast4_Low.png using Guid(c8f21f62fdb3e43c5b32917c84683698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e3b7e2b547e61bcf62562c68e5f54e') in 0.389287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 23.351547 seconds.
+  path: Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet Equirect.mat
+  artifactKey: Guid(13f6e5eed33d84c76979f1ec06b5e48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet Equirect.mat using Guid(13f6e5eed33d84c76979f1ec06b5e48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a09f99a50c98df9401bd6d3a905ee18') in 0.209494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_2_Left+X.png
+  artifactKey: Guid(40cd83628508d406497f3b21ff220644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_2_Left+X.png using Guid(40cd83628508d406497f3b21ff220644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0315d50bd757d9275aa2bbe74e85a5fa') in 0.033083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1247.819665 seconds.
+  path: Assets/2D Casual UI/Sprite
+  artifactKey: Guid(e768493ddca804421b25bd6727f9c844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Casual UI/Sprite using Guid(e768493ddca804421b25bd6727f9c844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9869129e5f3f63202f416ba0fffbd576') in 0.005315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005625 seconds.
+  path: Assets/2D Casual UI/Sprite/GUI.png
+  artifactKey: Guid(1eaee135ce037439d925cee5e41ce026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Casual UI/Sprite/GUI.png using Guid(1eaee135ce037439d925cee5e41ce026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '174b7c481cd7b21927a9a1624ad4d296') in 0.445546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 64
+========================================================================
+Received Import Request.
+  Time since last request: 6.462477 seconds.
+  path: Assets/2D Casual UI/Original Artwork
+  artifactKey: Guid(340aa2cbeb80a4c48846c87c039e46a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Casual UI/Original Artwork using Guid(340aa2cbeb80a4c48846c87c039e46a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc5cb9acd9b5ae91d5ebb8c58bf53eb') in 0.001747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.102225 seconds.
+  path: Assets/2D Casual UI/Original Artwork/GUI.psd
+  artifactKey: Guid(836eca08b5e3b4550a4538c2238266fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Casual UI/Original Artwork/GUI.psd using Guid(836eca08b5e3b4550a4538c2238266fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8179f5c0a842c81e6007e3f8a9f9923') in 0.062740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 190.671930 seconds.
+  path: Assets/Fancy UI/Style_Fill/Rounded_Rectangle/Buttons/Long/Long_Button_RoundedRectangle_White_StyleFill.png
+  artifactKey: Guid(55d092711a8349c41a6676eaa367d6c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Rounded_Rectangle/Buttons/Long/Long_Button_RoundedRectangle_White_StyleFill.png using Guid(55d092711a8349c41a6676eaa367d6c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b610020e1f865d5a715f42b5458e941') in 1.295971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Fancy UI/Style_Fill/Diamond/Buttons/Short/Short_Button_Diamond__Yellow_StyleFill.png
+  artifactKey: Guid(bedb9aebc57a3714481d3a96ec6628e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Diamond/Buttons/Short/Short_Button_Diamond__Yellow_StyleFill.png using Guid(bedb9aebc57a3714481d3a96ec6628e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '812ba7d4807f6343f77eb0ac5c7e6fb3') in 0.031321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Fancy UI/Style_Shadow/Diamond/Buttons/Short/Short_Button_Diamond__Pink_StyleShadow.png
+  artifactKey: Guid(e76a12c7ff069194cb8c624c44d3c60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Shadow/Diamond/Buttons/Short/Short_Button_Diamond__Pink_StyleShadow.png using Guid(e76a12c7ff069194cb8c624c44d3c60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1131e070d8dc60aacf033d15d2653792') in 0.034983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Fancy UI/Style_Fill/Oval/Toggle Buttons/ToggleButton_Oval_Off_StyleFill.png
+  artifactKey: Guid(8867beac8e290e74583f30dbd62e3562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Oval/Toggle Buttons/ToggleButton_Oval_Off_StyleFill.png using Guid(8867beac8e290e74583f30dbd62e3562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df85cb1548df438efcb8b8279e7ba922') in 0.077981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Fancy UI/Style_Fill/Diamond/Slider/Knob/Slider_DiamondKnob_Green_StyleFill.png
+  artifactKey: Guid(912bf0c598b659f41a1363b9839b5ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Diamond/Slider/Knob/Slider_DiamondKnob_Green_StyleFill.png using Guid(912bf0c598b659f41a1363b9839b5ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cab1e9dfd88d0e13729105a69d7efa0') in 0.040540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Fancy UI/Style_Shadow/Oval/Sliders/Foreground/Slider_Oval__Foreground_White_StyleShadow.png
+  artifactKey: Guid(8049f83914be9d84cabc39d36d823335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Shadow/Oval/Sliders/Foreground/Slider_Oval__Foreground_White_StyleShadow.png using Guid(8049f83914be9d84cabc39d36d823335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff79e6b8b0390ebc5ccbed0e97235189') in 0.050602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Fancy UI/Style_Stroke/Rounded_Rectangle/Buttons/Long/Long_Button_RoundedRectangle_Yellow_StyleStroke.png
+  artifactKey: Guid(d1ab5de38350e764696a7d95c045a85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Stroke/Rounded_Rectangle/Buttons/Long/Long_Button_RoundedRectangle_Yellow_StyleStroke.png using Guid(d1ab5de38350e764696a7d95c045a85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d7015aace8d1e9de2b13e60c9fb6616') in 0.054885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Fancy UI/Style_Stroke/Oval/Buttons/Short/Short_Button_Oval_White_StyleStroke.png
+  artifactKey: Guid(58230936604d2974496980666ecda3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Stroke/Oval/Buttons/Short/Short_Button_Oval_White_StyleStroke.png using Guid(58230936604d2974496980666ecda3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74486dd27d430408887fcc8bf205166') in 0.035565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000490 seconds.
+  path: Assets/Fancy UI/Style_Shadow/Diamond/Sliders/Foreground/Slider_Diamond_Foreground_Green_StyleShadow.png
+  artifactKey: Guid(6f6d3f8695ce3974b820b997930e7625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Shadow/Diamond/Sliders/Foreground/Slider_Diamond_Foreground_Green_StyleShadow.png using Guid(6f6d3f8695ce3974b820b997930e7625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88dead29ccdf8305dee04a244e2a4e76') in 0.038601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Fancy UI/Style_Shadow/Oval/Sliders/Foreground/Slider_Oval__Foreground_Green_StyleShadow.png
+  artifactKey: Guid(7f495a38003d0134fa8bb53273196715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Shadow/Oval/Sliders/Foreground/Slider_Oval__Foreground_Green_StyleShadow.png using Guid(7f495a38003d0134fa8bb53273196715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fe6b9e7315625292b56eff50f59df47') in 0.032808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Fancy UI/Style_Fill/Oval/Buttons/Short/Short_Button_Oval__Gray_StyleFill.png
+  artifactKey: Guid(8dad646be36085e43896c4e6168c4ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Oval/Buttons/Short/Short_Button_Oval__Gray_StyleFill.png using Guid(8dad646be36085e43896c4e6168c4ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd5057179db6c84fce83f220d599d3b') in 0.034904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Fancy UI/Style_Fill/Rounded_Rectangle/Sliders/Knob/Slider_RoundKnob_Red_StyleFill.png
+  artifactKey: Guid(fb99fd103b0801844b4f4467a3465d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Rounded_Rectangle/Sliders/Knob/Slider_RoundKnob_Red_StyleFill.png using Guid(fb99fd103b0801844b4f4467a3465d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eafbd90c3835c5ec34d9639e98e8028') in 0.044068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Fancy UI/Style_Fill/Rounded_Rectangle/Sliders/Knob/Slider_RoundKnob_Blue_StyleFill.png
+  artifactKey: Guid(baba5aea690d512479a3c77c2cd82a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Rounded_Rectangle/Sliders/Knob/Slider_RoundKnob_Blue_StyleFill.png using Guid(baba5aea690d512479a3c77c2cd82a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ace5b912f7713b88f03893f97b3a181e') in 0.038063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Fancy UI/Style_Fill/Diamond/Slider/Knob/Slider_DiamondKnob_Yellow_StyleFill.png
+  artifactKey: Guid(482b89f26e3640349aebcd3e7f14f341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Diamond/Slider/Knob/Slider_DiamondKnob_Yellow_StyleFill.png using Guid(482b89f26e3640349aebcd3e7f14f341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '940a5e0c5f1fc523e4cfa19837411826') in 0.040493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Fancy UI/Style_Shadow/Rounded_Rectangle/Ribbons/Color Ribbons/Ribbon_Purple_StyleShadow.png
+  artifactKey: Guid(40baca297297f154ebb3b8dc126c1eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Shadow/Rounded_Rectangle/Ribbons/Color Ribbons/Ribbon_Purple_StyleShadow.png using Guid(40baca297297f154ebb3b8dc126c1eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '174044d69b6463a2fe88b8585a035204') in 0.051320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Fancy UI/Style_Shadow/Diamond/Buttons/Short/Short_Button_Diamond__Yellow_StyleShadow.png
+  artifactKey: Guid(629a56a701997874490715db2769774b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Shadow/Diamond/Buttons/Short/Short_Button_Diamond__Yellow_StyleShadow.png using Guid(629a56a701997874490715db2769774b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046bfb1dde442ca9aa5a6c08bc50a163') in 0.039823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Fancy UI/Style_Shadow/Diamond/Buttons/Short/Short_Button_Diamond__Red_StyleShadow.png
+  artifactKey: Guid(3f697a906133d8f4b8ae71ef1283b0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Shadow/Diamond/Buttons/Short/Short_Button_Diamond__Red_StyleShadow.png using Guid(3f697a906133d8f4b8ae71ef1283b0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '510fdebb147df44a1414dce57147f5b8') in 0.040923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Fancy UI/Style_Fill/Diamond/Buttons/Short/Short_Button_Diamond__Blue_StyleFill.png
+  artifactKey: Guid(19f2a065a3679c443b9319a98bb111ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Diamond/Buttons/Short/Short_Button_Diamond__Blue_StyleFill.png using Guid(19f2a065a3679c443b9319a98bb111ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c1c78c570e3863e813c7d64bd1ba7d') in 0.039051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Fancy UI/Style_Fill/Diamond/Slider/Foreground/Slider_Diamond_Foreground_Purple_StyleFill.png
+  artifactKey: Guid(a6009f501b5165c42b193c455942394c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Diamond/Slider/Foreground/Slider_Diamond_Foreground_Purple_StyleFill.png using Guid(a6009f501b5165c42b193c455942394c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3381bd4c0669fdedf35594b4299071d7') in 0.024578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Fancy UI/Style_Stroke/Rounded_Rectangle/Ribbons/Color Ribbons/Ribbon_Green_StyleStroke.png
+  artifactKey: Guid(9d721de9acbcb2f47a6cccf2a237aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Stroke/Rounded_Rectangle/Ribbons/Color Ribbons/Ribbon_Green_StyleStroke.png using Guid(9d721de9acbcb2f47a6cccf2a237aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78478870c13180931a3dc760465d11d2') in 0.051756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Fancy UI/Style_Stroke/Rounded_Rectangle/Buttons/Short/Short_Button_RoundedRectangle_Gray_StyleStroke.png
+  artifactKey: Guid(d64d7f12a502bba45bf9d37cfb1fd535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Stroke/Rounded_Rectangle/Buttons/Short/Short_Button_RoundedRectangle_Gray_StyleStroke.png using Guid(d64d7f12a502bba45bf9d37cfb1fd535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '555b32a2413f9bc21d0427b87711e538') in 0.047389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Fancy UI/Style_Stroke/Oval/Buttons/Short/Short_Button_Oval_Yellow_StyleStroke.png
+  artifactKey: Guid(e25630ceab704dc43bcc917020ee9e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Stroke/Oval/Buttons/Short/Short_Button_Oval_Yellow_StyleStroke.png using Guid(e25630ceab704dc43bcc917020ee9e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b7c4d6e56514251897089dace7989e') in 0.047138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000834 seconds.
+  path: Assets/Fancy UI/Style_Stroke/Rounded_Rectangle/Buttons/Short/Short_Button_RoundedRectangle_Blue_StyleStroke.png
+  artifactKey: Guid(7059aa7eff0f1a44f98f26657e5481ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Stroke/Rounded_Rectangle/Buttons/Short/Short_Button_RoundedRectangle_Blue_StyleStroke.png using Guid(7059aa7eff0f1a44f98f26657e5481ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '787312c52a61faad0dec5e788c73ba93') in 0.041257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Fancy UI/Style_Fill/Diamond/Progress Bar/Background/ProgressBar_Diamond_Background_Gray_StyleFill.png
+  artifactKey: Guid(20470720de635c5479875b29c27716f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Diamond/Progress Bar/Background/ProgressBar_Diamond_Background_Gray_StyleFill.png using Guid(20470720de635c5479875b29c27716f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f254766d82c7abcff9677367ead955fc') in 0.022701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Fancy UI/Style_Shadow/Rounded_Rectangle/Buttons/Short/Long_Button_RoundedRectangle_Yellow_StyleShadow.png
+  artifactKey: Guid(b1e7e6d48e9af144e8ff4521b2325ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Shadow/Rounded_Rectangle/Buttons/Short/Long_Button_RoundedRectangle_Yellow_StyleShadow.png using Guid(b1e7e6d48e9af144e8ff4521b2325ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79fd7fdd2669293dbd0e80a0f195155b') in 0.037815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Fancy UI/Style_Stroke/Rounded_Rectangle/Ribbons/Color Ribbons/Ribbon_Magenta_StyleStroke.png
+  artifactKey: Guid(03ae911bb4d04e34e85605e81b6f7f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Stroke/Rounded_Rectangle/Ribbons/Color Ribbons/Ribbon_Magenta_StyleStroke.png using Guid(03ae911bb4d04e34e85605e81b6f7f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b2a50e7754b5b36b377034a1300c44') in 0.041306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Fancy UI/Style_Fill/Oval/Buttons/Short/Short_Button_Oval__Blue_StyleFill.png
+  artifactKey: Guid(c4e9cbdfa232ef44b9bff2dce2c1043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Oval/Buttons/Short/Short_Button_Oval__Blue_StyleFill.png using Guid(c4e9cbdfa232ef44b9bff2dce2c1043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdc617b1d87a0d6d1a01323746750d0d') in 0.037368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Fancy UI/Style_Stroke/Diamond/Slider/Knob/Slider_DiamondKnob_Red_StyleStroke.png
+  artifactKey: Guid(df163d63d361d364fb866fb653667c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Stroke/Diamond/Slider/Knob/Slider_DiamondKnob_Red_StyleStroke.png using Guid(df163d63d361d364fb866fb653667c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27045041aa0e14561c2199efb6a14280') in 0.025146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Fancy UI/Style_Stroke/Oval/Buttons/Short/Short_Button_Oval_Purple_StyleStroke.png
+  artifactKey: Guid(094aaca8bb4b31f4e8e1a27200c5a544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Stroke/Oval/Buttons/Short/Short_Button_Oval_Purple_StyleStroke.png using Guid(094aaca8bb4b31f4e8e1a27200c5a544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfca44a96e0dbb38344f7a878495636f') in 0.038375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Fancy UI/Style_Fill/Rounded_Rectangle/Sliders/Knob/Slider_RoundKnob_Pink_StyleFill.png
+  artifactKey: Guid(54550a961fc541f4cb20bf783a377e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Rounded_Rectangle/Sliders/Knob/Slider_RoundKnob_Pink_StyleFill.png using Guid(54550a961fc541f4cb20bf783a377e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d0632cf472289e99899e25a0318d75') in 0.041983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Fancy UI/Style_Fill/Rounded_Rectangle/Buttons/Short/Short_Button_RoundedRectangle_Pink_StyleFill.png
+  artifactKey: Guid(8549fbdd75e14f0439833493d14e7132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Rounded_Rectangle/Buttons/Short/Short_Button_RoundedRectangle_Pink_StyleFill.png using Guid(8549fbdd75e14f0439833493d14e7132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f116361c499e5c56213e447b6e2fa77') in 0.038507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Fancy UI/Style_Shadow/Rounded_Rectangle/Toggle Buttons/ToggleButton_rRoundedRectangle_Off_SStyleShadow.png
+  artifactKey: Guid(3d7a97fac35e96b45ae67beff4f09c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Shadow/Rounded_Rectangle/Toggle Buttons/ToggleButton_rRoundedRectangle_Off_SStyleShadow.png using Guid(3d7a97fac35e96b45ae67beff4f09c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5a42246873788c175c0227d199c9d7c') in 0.049232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Fancy UI/Style_Shadow/Rounded_Rectangle/Sliders/Knob/Slider_RoundKnob_Red_StyleShadow.png
+  artifactKey: Guid(858bbc27b2610e1499ff642319a15e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Shadow/Rounded_Rectangle/Sliders/Knob/Slider_RoundKnob_Red_StyleShadow.png using Guid(858bbc27b2610e1499ff642319a15e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3520b35edd53c1df5d00a46754a0f196') in 0.041546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Fancy UI/Style_Shadow/Diamond/Buttons/Short/Short_Button_Diamond__Gray_StyleShadow.png
+  artifactKey: Guid(b792c08641456404b81c8744620588a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Shadow/Diamond/Buttons/Short/Short_Button_Diamond__Gray_StyleShadow.png using Guid(b792c08641456404b81c8744620588a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d54ea88b10373f4d76d5f42d0eb0a10') in 0.037465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Fancy UI/Style_Shadow/Diamond/Sliders/Knob/Slider_DiamondKnob_Yellow_StyleShadow.png
+  artifactKey: Guid(96ecc7f16fb68b04998fcc923a127208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Shadow/Diamond/Sliders/Knob/Slider_DiamondKnob_Yellow_StyleShadow.png using Guid(96ecc7f16fb68b04998fcc923a127208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b7e8ec1e6c2ab3da8299b5a15d943f4') in 0.040172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Fancy UI/Style_Stroke/Diamond/Buttons/Short/Short_Button_Diamond__Red_StyleStroke.png
+  artifactKey: Guid(09a9d5212a3f5164790b5fbd87c5e5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Stroke/Diamond/Buttons/Short/Short_Button_Diamond__Red_StyleStroke.png using Guid(09a9d5212a3f5164790b5fbd87c5e5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0324898a13aa545132345b748dbdb52a') in 0.045266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Fancy UI/Style_Fill/Rounded_Rectangle/Buttons/Short/Short_Button_RoundedRectangle_Purple_StyleFill.png
+  artifactKey: Guid(2428a3b1623bba84781db58f13b656ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Rounded_Rectangle/Buttons/Short/Short_Button_RoundedRectangle_Purple_StyleFill.png using Guid(2428a3b1623bba84781db58f13b656ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a0e2102efc5dd34d728cc790622f38') in 0.041444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Fancy UI/Style_Stroke/Diamond/Toggle Buttons/ToggleButton_Diamond_On_StyleStroke.png
+  artifactKey: Guid(254404cb5ff3e454e9a72f929145f03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Stroke/Diamond/Toggle Buttons/ToggleButton_Diamond_On_StyleStroke.png using Guid(254404cb5ff3e454e9a72f929145f03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd0ec527f24698a7daf8ad5016aaf84') in 0.037459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Fancy UI/Style_Shadow/Diamond/Progress Bar/Foreground/ProgressBar_Diamond_Foreground_Green_StyleShadow.png
+  artifactKey: Guid(88bac0e0309099148890a65326afc014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Shadow/Diamond/Progress Bar/Foreground/ProgressBar_Diamond_Foreground_Green_StyleShadow.png using Guid(88bac0e0309099148890a65326afc014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7449a491a8d98da7c0666bc39fa642a') in 0.035018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Fancy UI/Style_Shadow/Rounded_Rectangle/Sliders/Foreground/Slider_RoundedRectangle_Foreground_Red_StyleShadow.png
+  artifactKey: Guid(8dca7693cf9cf434aa076927e7667345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Shadow/Rounded_Rectangle/Sliders/Foreground/Slider_RoundedRectangle_Foreground_Red_StyleShadow.png using Guid(8dca7693cf9cf434aa076927e7667345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ca95a322fe109e154b286af8a1e00b') in 0.035392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Fancy UI/Style_Stroke/Oval/Buttons/Short/Short_Button_Oval_Pink_StyleStroke.png
+  artifactKey: Guid(39c21ed95463a50408cd0b5f54d1c588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Stroke/Oval/Buttons/Short/Short_Button_Oval_Pink_StyleStroke.png using Guid(39c21ed95463a50408cd0b5f54d1c588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3a2c144bc42e3820af8fcb84063ff70') in 0.046234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Fancy UI/Style_Stroke/Rounded_Rectangle/Ribbons/Color Ribbons/Ribbon_Orange_StyleStroke.png
+  artifactKey: Guid(40b4319a5134b7047867dee625eca314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Stroke/Rounded_Rectangle/Ribbons/Color Ribbons/Ribbon_Orange_StyleStroke.png using Guid(40b4319a5134b7047867dee625eca314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e829ddfb041377035ee5d70c5c50ecd') in 0.044686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Fancy UI/Style_Stroke/Rounded_Rectangle/Sliders/Foreground/Slider_RoundedRectangle_Foreground_Pink_StyleStroke.png
+  artifactKey: Guid(5cbb810d5cbde924a8952556c29cf68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Stroke/Rounded_Rectangle/Sliders/Foreground/Slider_RoundedRectangle_Foreground_Pink_StyleStroke.png using Guid(5cbb810d5cbde924a8952556c29cf68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '101c1a0b7cd4496bea3963197a412aba') in 0.038351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Fancy UI/Style_Shadow/Oval/Sliders/Foreground/Slider_Oval__Foreground_Pink_StyleShadow.png
+  artifactKey: Guid(7b8baaa9fe3076641ab434a7477f4133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Shadow/Oval/Sliders/Foreground/Slider_Oval__Foreground_Pink_StyleShadow.png using Guid(7b8baaa9fe3076641ab434a7477f4133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ffa7ab4c337df1bb1a31cb9d987338') in 0.034435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Fancy UI/Style_Fill/Rounded_Rectangle/Sliders/Foreground/Slider_RoundedRectangle_Foreground_Pink_StyleFill.png
+  artifactKey: Guid(855c63e8a3d06f64097f0f686cc52309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Rounded_Rectangle/Sliders/Foreground/Slider_RoundedRectangle_Foreground_Pink_StyleFill.png using Guid(855c63e8a3d06f64097f0f686cc52309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '018274ed485667a9f53ff29cf09a2c85') in 0.038503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Fancy UI/Style_Shadow/Diamond/Buttons/Short/Short_Button_Diamond__Blue_StyleShadow.png
+  artifactKey: Guid(53c37b258646e7941b6adbea4ecb8f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Shadow/Diamond/Buttons/Short/Short_Button_Diamond__Blue_StyleShadow.png using Guid(53c37b258646e7941b6adbea4ecb8f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5afc2b458433213dd57f82b2f87c498a') in 0.041703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Fancy UI/Style_Fill/Rounded_Rectangle/Ribbons/Color Ribbons/Ribbon_Orange_StyleFill.png
+  artifactKey: Guid(baf4322385c0f494bbb3166815270f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Rounded_Rectangle/Ribbons/Color Ribbons/Ribbon_Orange_StyleFill.png using Guid(baf4322385c0f494bbb3166815270f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37fbcc24d1293fa29cfbd3bcc0326ac2') in 0.041394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Fancy UI/Style_Shadow/Diamond/Sliders/Foreground/Slider_Diamond_Foreground_Pink_StyleShadow.png
+  artifactKey: Guid(5a85fe9d5eed3f34a9f309fdb6ccfb5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Shadow/Diamond/Sliders/Foreground/Slider_Diamond_Foreground_Pink_StyleShadow.png using Guid(5a85fe9d5eed3f34a9f309fdb6ccfb5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5440cdb54c9fdd98c67da44bd5c9015') in 0.037774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Fancy UI/Style_Stroke/Rounded_Rectangle/Toggle Buttons/ToggleButton_RoundedRectangle_Off_StyleStroke.png
+  artifactKey: Guid(f426afa3183380843843b48d5bd79382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Stroke/Rounded_Rectangle/Toggle Buttons/ToggleButton_RoundedRectangle_Off_StyleStroke.png using Guid(f426afa3183380843843b48d5bd79382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '117b0cd8551d249285f953b0078d9312') in 0.039581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Fancy UI/Style_Stroke/Rounded_Rectangle/Sliders/Foreground/Slider_RoundedRectangle_Foreground_Purple_StyleStroke.png
+  artifactKey: Guid(3216abe4ffd951d46823572a36327e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Stroke/Rounded_Rectangle/Sliders/Foreground/Slider_RoundedRectangle_Foreground_Purple_StyleStroke.png using Guid(3216abe4ffd951d46823572a36327e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7218190b65e6830fb4b8e716840ec779') in 0.035722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Fancy UI/Style_Shadow/Rounded_Rectangle/Buttons/Long/Long_Button_RoundedRectangle_Yellow_StyleShadow.png
+  artifactKey: Guid(6aac418c24e44194f93ab2573382e615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Shadow/Rounded_Rectangle/Buttons/Long/Long_Button_RoundedRectangle_Yellow_StyleShadow.png using Guid(6aac418c24e44194f93ab2573382e615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd638a632b2fc6922e447e870ead7f516') in 0.039754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Fancy UI/Shared Elements/White Ribbons/Ribbons_white4.png
+  artifactKey: Guid(7447fea870f372048b45b7f1968e7a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Shared Elements/White Ribbons/Ribbons_white4.png using Guid(7447fea870f372048b45b7f1968e7a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119fdef7d3bfce83f27e383cb9ff5b9f') in 0.043509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Fancy UI/Style_Shadow/Oval/Sliders/Foreground/Slider_Oval__Foreground_Purple_StyleShadow.png
+  artifactKey: Guid(fa26547d0c8cf934b9e3256c93553e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Shadow/Oval/Sliders/Foreground/Slider_Oval__Foreground_Purple_StyleShadow.png using Guid(fa26547d0c8cf934b9e3256c93553e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb6f23b8b7f2aaedf5b21df7e4a5bd6') in 0.040541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Fancy UI/Style_Shadow/Rounded_Rectangle/Sliders/Knob/Slider_RoundKnob_Blue_StyleShadow.png
+  artifactKey: Guid(1db6f1fffea48ef4da1ac5c18b7063a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Shadow/Rounded_Rectangle/Sliders/Knob/Slider_RoundKnob_Blue_StyleShadow.png using Guid(1db6f1fffea48ef4da1ac5c18b7063a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b98b62d778df715714d30057ab2f395') in 0.043256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Fancy UI/Style_Stroke/Diamond/Slider/Knob/Slider_DiamondKnob_Yellow_StyleStroke.png
+  artifactKey: Guid(d0c6c567a83437b4b82144773b8431c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Stroke/Diamond/Slider/Knob/Slider_DiamondKnob_Yellow_StyleStroke.png using Guid(d0c6c567a83437b4b82144773b8431c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff5cb028b795966a77fe1c4145f59048') in 0.040753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Fancy UI/Style_Shadow/Rounded_Rectangle/Ribbons/Color Ribbons/Ribbon_Green_StyleShadow.png
+  artifactKey: Guid(e437f32eaaa7c1e47afadd5dbf42cbc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Shadow/Rounded_Rectangle/Ribbons/Color Ribbons/Ribbon_Green_StyleShadow.png using Guid(e437f32eaaa7c1e47afadd5dbf42cbc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cffd23f904f464bbcaf53381471b120') in 0.035920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Fancy UI/Style_Stroke/Rounded_Rectangle/Ribbons/Color Ribbons/Ribbon_Yellow_StyleStroke.png
+  artifactKey: Guid(e091bae1097948c458345ebe363fc1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Stroke/Rounded_Rectangle/Ribbons/Color Ribbons/Ribbon_Yellow_StyleStroke.png using Guid(e091bae1097948c458345ebe363fc1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b061a3188b54bcfc46a8a33938e7349d') in 0.044441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Fancy UI/Style_Stroke/Rounded_Rectangle/Sliders/Foreground/Slider_RoundedRectangle_Foreground_Yellow_StyleStroke.png
+  artifactKey: Guid(3fb49fc8d24a95a4fa5c02c410f51f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Stroke/Rounded_Rectangle/Sliders/Foreground/Slider_RoundedRectangle_Foreground_Yellow_StyleStroke.png using Guid(3fb49fc8d24a95a4fa5c02c410f51f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f55994b07ff3034cc7870211f802ef6') in 0.038283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Fancy UI/Style_Fill/Rounded_Rectangle/Ribbons/Color Ribbons/Ribbon_Blue_StyleFill.png
+  artifactKey: Guid(d20ef3aac48cc1c4a83be4a34d258581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Rounded_Rectangle/Ribbons/Color Ribbons/Ribbon_Blue_StyleFill.png using Guid(d20ef3aac48cc1c4a83be4a34d258581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96593edfec8e27d8f54358dda43ca162') in 0.038652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Fancy UI/Style_Fill/Oval/Buttons/Short/Short_Button_Oval__White_StyleFill.png
+  artifactKey: Guid(2925df9351a85f247b4e57225d6419ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Oval/Buttons/Short/Short_Button_Oval__White_StyleFill.png using Guid(2925df9351a85f247b4e57225d6419ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f282a936494350acf5ad77fbcd0416') in 0.036981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Fancy UI/Style_Shadow/Rounded_Rectangle/Buttons/Short/Short_Button_RoundedRectangle_Gray_StyleShadow.png
+  artifactKey: Guid(4d71e00490500a9458330d99fd0233c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Shadow/Rounded_Rectangle/Buttons/Short/Short_Button_RoundedRectangle_Gray_StyleShadow.png using Guid(4d71e00490500a9458330d99fd0233c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e98b0e6f6a640de86f64a605c104e87b') in 0.040784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Fancy UI/Style_Stroke/Diamond/Buttons/Short/Short_Button_Diamond__Green_StyleStroke.png
+  artifactKey: Guid(036268b6312be6347a54c5c009382b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Stroke/Diamond/Buttons/Short/Short_Button_Diamond__Green_StyleStroke.png using Guid(036268b6312be6347a54c5c009382b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae3cd932766a3ad628535404dc197fcc') in 0.040496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Fancy UI/Style_Fill/Diamond/Buttons/Short/Short_Button_Diamond__Pink_StyleFill.png
+  artifactKey: Guid(34e505c8060b7c143931776ef59f1982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Diamond/Buttons/Short/Short_Button_Diamond__Pink_StyleFill.png using Guid(34e505c8060b7c143931776ef59f1982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afbf672b0abae140a684734cb36b91ba') in 0.037734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Fancy UI/Style_Stroke/Diamond/Slider/Knob/Slider_DiamondKnob_Pink_StyleStroke.png
+  artifactKey: Guid(086d7f0ba6404cd4d81ce93a3a6bf124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Stroke/Diamond/Slider/Knob/Slider_DiamondKnob_Pink_StyleStroke.png using Guid(086d7f0ba6404cd4d81ce93a3a6bf124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80b0599c4ec155d38f7cbfce4abfd67f') in 0.026272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Fancy UI/Style_Stroke/Diamond/Buttons/Short/Short_Button_Diamond__White_StyleStroke.png
+  artifactKey: Guid(4235b6466fdb4364fae8f872a47829f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Stroke/Diamond/Buttons/Short/Short_Button_Diamond__White_StyleStroke.png using Guid(4235b6466fdb4364fae8f872a47829f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5bcdab94296acea50a784e8fe8b84c5') in 0.040597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Fancy UI/Style_Fill/Diamond/Buttons/Short/Short_Button_Diamond__Green_StyleFill.png
+  artifactKey: Guid(75fc44680e0e178479ccf3c8f0ab65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Diamond/Buttons/Short/Short_Button_Diamond__Green_StyleFill.png using Guid(75fc44680e0e178479ccf3c8f0ab65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb81e82d0ebb3fa1d5c274f4ebf353cf') in 0.054846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Fancy UI/Style_Shadow/Rounded_Rectangle/Sliders/Background/Slider_RoundedRectangle_Background_Gray_StyleShadow.png
+  artifactKey: Guid(15f073bdb1d057342a61217f88ebc5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Shadow/Rounded_Rectangle/Sliders/Background/Slider_RoundedRectangle_Background_Gray_StyleShadow.png using Guid(15f073bdb1d057342a61217f88ebc5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da5db5cd29faac9160d369140a584ea') in 0.038424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Fancy UI/Style_Stroke/Rounded_Rectangle/Sliders/Background/Slider_RoundedRectangle_Background_Gray_StyleStroke.png
+  artifactKey: Guid(7a5bca6d6f5c8744295ad000cbbb6761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Stroke/Rounded_Rectangle/Sliders/Background/Slider_RoundedRectangle_Background_Gray_StyleStroke.png using Guid(7a5bca6d6f5c8744295ad000cbbb6761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bcb37e8b6a866ff7f9bf384d55e0813') in 0.036763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Fancy UI/Style_Fill/Rounded_Rectangle/Sliders/Foreground/Slider_RoundedRectangle_Foreground_Blue_StyleFill.png
+  artifactKey: Guid(ab8034ae4809b9f40a0005406f4ca7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Rounded_Rectangle/Sliders/Foreground/Slider_RoundedRectangle_Foreground_Blue_StyleFill.png using Guid(ab8034ae4809b9f40a0005406f4ca7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f0a0dba39fb957404180303384d3ec') in 0.037236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Fancy UI/Style_Stroke/Rounded_Rectangle/Sliders/Knob/Slider_RectangleKnob_Purple_StyleStroke.png
+  artifactKey: Guid(6ddb299267e19724e8b0c5378fe6cf67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Stroke/Rounded_Rectangle/Sliders/Knob/Slider_RectangleKnob_Purple_StyleStroke.png using Guid(6ddb299267e19724e8b0c5378fe6cf67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a1ab33a25266177603a5d8ab5b5c080') in 0.034489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Fancy UI/Style_Fill/Rounded_Rectangle/Toggle Buttons/ToggleButton_rRoundedRectangle_Off_SStyleFill.png
+  artifactKey: Guid(ef1470383a0d7bd42bb531e702058068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Rounded_Rectangle/Toggle Buttons/ToggleButton_rRoundedRectangle_Off_SStyleFill.png using Guid(ef1470383a0d7bd42bb531e702058068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '361f810b393aac854734fc798482a606') in 0.034176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Fancy UI/Style_Stroke/Rounded_Rectangle/Sliders/Knob/Slider_RectangleKnob_Red_StyleStroke.png
+  artifactKey: Guid(a37d8bd5d17f21d499883934bcc0598b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Stroke/Rounded_Rectangle/Sliders/Knob/Slider_RectangleKnob_Red_StyleStroke.png using Guid(a37d8bd5d17f21d499883934bcc0598b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e119abe5b39cbffa19be98a14c6b301') in 0.042820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Fancy UI/Style_Fill/Rounded_Rectangle/Ribbons/Color Ribbons/Ribbon_Pink_StyleFill.png
+  artifactKey: Guid(ac338f32c9fa22a4f81e81280019d89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Rounded_Rectangle/Ribbons/Color Ribbons/Ribbon_Pink_StyleFill.png using Guid(ac338f32c9fa22a4f81e81280019d89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54cf09cef5c9e596f8e5d0581f6a2fc8') in 0.045003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Fancy UI/Style_Stroke/Rounded_Rectangle/Sliders/Knob/Slider_RectangleKnob_Green_StyleStroke.png
+  artifactKey: Guid(e548924823883ab488cbe7aaf642954d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Stroke/Rounded_Rectangle/Sliders/Knob/Slider_RectangleKnob_Green_StyleStroke.png using Guid(e548924823883ab488cbe7aaf642954d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8fee105da4438e5ca3af0ad708fc0e') in 0.038602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Fancy UI/Style_Stroke/Oval/Buttons/Short/Short_Button_Oval_Gray_StyleStroke.png
+  artifactKey: Guid(e5f82bc3d8eb7994586d6d96c8e69cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Stroke/Oval/Buttons/Short/Short_Button_Oval_Gray_StyleStroke.png using Guid(e5f82bc3d8eb7994586d6d96c8e69cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0181c129f672c3312ff31e662f48313b') in 0.038667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Fancy UI/Style_Stroke/Diamond/Slider/Foreground/Slider_Diamond_Foreground_Blue_StyleStroke.png
+  artifactKey: Guid(e3ae326727a31de4e9f987ded55d8c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Stroke/Diamond/Slider/Foreground/Slider_Diamond_Foreground_Blue_StyleStroke.png using Guid(e3ae326727a31de4e9f987ded55d8c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99c718834be022efc247d0d4a47bd3bc') in 0.022629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Fancy UI/Style_Fill/Diamond/Slider/Foreground/Slider_Diamond_Foreground_Pink_StyleFill.png
+  artifactKey: Guid(16abf3a6636866c49aabc569cd973724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Diamond/Slider/Foreground/Slider_Diamond_Foreground_Pink_StyleFill.png using Guid(16abf3a6636866c49aabc569cd973724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a93c994ccfcd3a5be78f5de4c1b381') in 0.020691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Fancy UI/Style_Fill/Rounded_Rectangle/Toggle Buttons/ToggleButton_RoundedRectangle_On_StyleFill.png
+  artifactKey: Guid(3b911291d1d49cc4e8c44837d4738350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Rounded_Rectangle/Toggle Buttons/ToggleButton_RoundedRectangle_On_StyleFill.png using Guid(3b911291d1d49cc4e8c44837d4738350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd1d8b4b114e1ea68f94548cd882dd2') in 0.036821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Fancy UI/Style_Fill/Oval/Sliders/Background/Slider_Oval_Background_Gray_StyleFill.png
+  artifactKey: Guid(48e94bc329e114e4185067339c47fedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Oval/Sliders/Background/Slider_Oval_Background_Gray_StyleFill.png using Guid(48e94bc329e114e4185067339c47fedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac5671b90a49861769cd4aabaf44921') in 0.033444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Fancy UI/Style_Stroke/Diamond/Toggle Buttons/ToggleButton_Diamond_Off_StyleStroke.png
+  artifactKey: Guid(fc576c05b87626543b91d49629e18b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Stroke/Diamond/Toggle Buttons/ToggleButton_Diamond_Off_StyleStroke.png using Guid(fc576c05b87626543b91d49629e18b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '604458216f49dc8b4edbbd4153da467e') in 0.037673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Fancy UI/Style_Shadow/Rounded_Rectangle/Toggle Buttons/ToggleButton_RoundedRectangle_On_StyleShadow.png
+  artifactKey: Guid(0290a7cafd9ebce4f933b66325126185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Shadow/Rounded_Rectangle/Toggle Buttons/ToggleButton_RoundedRectangle_On_StyleShadow.png using Guid(0290a7cafd9ebce4f933b66325126185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '447b8a0597276a5ff51a52c4ab11849b') in 0.037382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Fancy UI/Shared Elements/White Ribbons/Ribbons_white3.png
+  artifactKey: Guid(72a1750f0b7d3ac4d98e095e2855e4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Shared Elements/White Ribbons/Ribbons_white3.png using Guid(72a1750f0b7d3ac4d98e095e2855e4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd45c26f6db5ef07365e84af67b37b135') in 0.036062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Fancy UI/Style_Fill/Diamond/Slider/Foreground/Slider_Diamond_Foreground_White_StyleFill.png
+  artifactKey: Guid(e9646d374fc4ad444af80d96137421b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Diamond/Slider/Foreground/Slider_Diamond_Foreground_White_StyleFill.png using Guid(e9646d374fc4ad444af80d96137421b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '915e0cc393d08d8c20a650f8cad8db49') in 0.022395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Fancy UI/Style_Shadow/Diamond/Sliders/Knob/Slider_DiamondKnob_Green_StyleShadowl.png
+  artifactKey: Guid(631be3bcc3fc6d846abbc9622f47838e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Shadow/Diamond/Sliders/Knob/Slider_DiamondKnob_Green_StyleShadowl.png using Guid(631be3bcc3fc6d846abbc9622f47838e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83fb3e9dd8af9a7f1326079579c5b3e3') in 0.023296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Fancy UI/Style_Fill/Diamond/Slider/Knob/Slider_DiamondKnob_Pink_StyleFill.png
+  artifactKey: Guid(abd08594af0f71b4eb6bd410a0caabf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Diamond/Slider/Knob/Slider_DiamondKnob_Pink_StyleFill.png using Guid(abd08594af0f71b4eb6bd410a0caabf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dff8c48708d0ff364c7df54b2705f89') in 0.026747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Fancy UI/Style_Fill/Diamond/Slider/Foreground/Slider_Diamond_Foreground_Red_StyleFill.png
+  artifactKey: Guid(40aabaf892b288f4c9da57b9ea8e0066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Diamond/Slider/Foreground/Slider_Diamond_Foreground_Red_StyleFill.png using Guid(40aabaf892b288f4c9da57b9ea8e0066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '478d9712499b914fe80420f13a70e1f0') in 0.022658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Fancy UI/Style_Fill/Rounded_Rectangle/Ribbons/Color Ribbons/Ribbon_Magenta_StyleFill.png
+  artifactKey: Guid(1bc7c09d61fc342498eda2489feacb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Rounded_Rectangle/Ribbons/Color Ribbons/Ribbon_Magenta_StyleFill.png using Guid(1bc7c09d61fc342498eda2489feacb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727035b916f2446ebedd97606715af12') in 0.036956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Fancy UI/Style_Fill/Diamond/Slider/Knob/Slider_DiamondKnob_Blue_StyleFill.png
+  artifactKey: Guid(3bdc2dd7280549342a8353ed593c9137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Diamond/Slider/Knob/Slider_DiamondKnob_Blue_StyleFill.png using Guid(3bdc2dd7280549342a8353ed593c9137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '248e7b700a30148eede0fa0f1f908746') in 0.041734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Fancy UI/Style_Fill/Oval/Toggle Buttons/ToggleButton_Oval_On_StyleFill.png
+  artifactKey: Guid(fd8cbb60cb6675141bcec50d1828dbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Oval/Toggle Buttons/ToggleButton_Oval_On_StyleFill.png using Guid(fd8cbb60cb6675141bcec50d1828dbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d075abd20d88f9da77782ab0c0bc7f4') in 0.037202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Fancy UI/Style_Shadow/Oval/Sliders/Knob/Slider_OvalKnob_Yellow_StyleShadow.png
+  artifactKey: Guid(95f5df40f2f14064b9d79fb03c22d036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Shadow/Oval/Sliders/Knob/Slider_OvalKnob_Yellow_StyleShadow.png using Guid(95f5df40f2f14064b9d79fb03c22d036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e339eb0facbfc5b699b93f4d92cf1398') in 0.042907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Fancy UI/Style_Stroke/Oval/Sliders/Knob/Slider_OvalKnob_Red_StyleStroke.png
+  artifactKey: Guid(35cc44cc1d34150469aa111e11e5e664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Stroke/Oval/Sliders/Knob/Slider_OvalKnob_Red_StyleStroke.png using Guid(35cc44cc1d34150469aa111e11e5e664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3944802b8276014283adebf0783f0c') in 0.041658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Fancy UI/Style_Fill/Oval/Sliders/Knob/Slider_OvalKnob_Yellow_StyleFill.png
+  artifactKey: Guid(c6dcbc178325f3d4b8cfaff8a33a9f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Oval/Sliders/Knob/Slider_OvalKnob_Yellow_StyleFill.png using Guid(c6dcbc178325f3d4b8cfaff8a33a9f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac8aa9ce3a5bcb16fcad30e0b093def') in 0.040871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Fancy UI/Style_Shadow/Rounded_Rectangle/Sliders/Foreground/Slider_RoundedRectangle_Foreground_Yellow_StyleShadow.png
+  artifactKey: Guid(bf2f110402e86b04eba047bd9594ef5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Shadow/Rounded_Rectangle/Sliders/Foreground/Slider_RoundedRectangle_Foreground_Yellow_StyleShadow.png using Guid(bf2f110402e86b04eba047bd9594ef5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b6fba4dc8e356e953d66d3476aba20') in 0.052520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006672 seconds.
+  path: Assets/Fancy UI/Style_Shadow/Oval/Sliders/Knob/Slider_OvalKnob_Pink_StyleShadow.png
+  artifactKey: Guid(9f0f6f76c2c08aa4a9a16c617e2cb9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Shadow/Oval/Sliders/Knob/Slider_OvalKnob_Pink_StyleShadow.png using Guid(9f0f6f76c2c08aa4a9a16c617e2cb9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd1321b7acec421fd182024af3b99785') in 0.041442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Fancy UI/Style_Shadow/Diamond/Sliders/Foreground/Slider_Diamond_Foreground_Purple_StyleShadow.png
+  artifactKey: Guid(ed664fc4b8fb8f841981094274b9cb55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Shadow/Diamond/Sliders/Foreground/Slider_Diamond_Foreground_Purple_StyleShadow.png using Guid(ed664fc4b8fb8f841981094274b9cb55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23163fbe5248fdc49ae937fdef46c223') in 0.025699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Fancy UI/Style_Stroke/Diamond/Slider/Background/Slider_Diamond_Background_Gray_StyleStroke.png
+  artifactKey: Guid(562826fcbd5fb234f9b561bca3715a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Stroke/Diamond/Slider/Background/Slider_Diamond_Background_Gray_StyleStroke.png using Guid(562826fcbd5fb234f9b561bca3715a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b42d2e315fb087866b96c1b3dbfc9b37') in 0.024473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Fancy UI/Style_Fill/Diamond/Slider/Foreground/Slider_Diamond_Foreground_Blue_StyleFill.png
+  artifactKey: Guid(9f308aea98e4ed940baf570d5e8f55f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Diamond/Slider/Foreground/Slider_Diamond_Foreground_Blue_StyleFill.png using Guid(9f308aea98e4ed940baf570d5e8f55f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66ec69f2494f641816fa2f5a534820d7') in 0.020542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Fancy UI/Shared Elements/White Ribbons/Ribbons_white1.png
+  artifactKey: Guid(7915cb0019844f54887f3374218e47fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Shared Elements/White Ribbons/Ribbons_white1.png using Guid(7915cb0019844f54887f3374218e47fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6820ade50435bc4304fd9639afa883e9') in 0.044281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Fancy UI/Style_Shadow/Rounded_Rectangle/Ribbons/Color Ribbons/Ribbon_Pink_StyleShadow.png
+  artifactKey: Guid(963855b0b1d8e3a4087755732938ad74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Shadow/Rounded_Rectangle/Ribbons/Color Ribbons/Ribbon_Pink_StyleShadow.png using Guid(963855b0b1d8e3a4087755732938ad74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9833dfd13c715e2f80c715c0cb455b53') in 0.037108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Fancy UI/Shared Elements/White Ribbons/Ribbons_white2.png
+  artifactKey: Guid(4b4ea350b46d7a24fb55844106db3102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Shared Elements/White Ribbons/Ribbons_white2.png using Guid(4b4ea350b46d7a24fb55844106db3102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8483a8793cbcd92e90c8b922cdfa90e') in 0.035272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Fancy UI/Style_Fill/Oval/Sliders/Knob/Slider_OvalKnob_Red_StyleFill.png
+  artifactKey: Guid(837376fd98b2ef34f895d08eb5d3ac47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Oval/Sliders/Knob/Slider_OvalKnob_Red_StyleFill.png using Guid(837376fd98b2ef34f895d08eb5d3ac47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15cb69994b847bcaaa5e54c5984dd83a') in 0.038784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Fancy UI/Style_Shadow/Oval/Sliders/Knob/Slider_OvalKnob_Red_StyleShadow.png
+  artifactKey: Guid(8ea3ce51b8fa05b42abac2adf81de33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Shadow/Oval/Sliders/Knob/Slider_OvalKnob_Red_StyleShadow.png using Guid(8ea3ce51b8fa05b42abac2adf81de33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '600ec3ed13107adb7c495ad1518f1c00') in 0.041565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Fancy UI/Style_Shadow/Rounded_Rectangle/Sliders/Foreground/Slider_RoundedRectangle_Foreground_Blue_StyleShadow.png
+  artifactKey: Guid(6bf2e5e984f8bf84bb3c55d04cc304f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Shadow/Rounded_Rectangle/Sliders/Foreground/Slider_RoundedRectangle_Foreground_Blue_StyleShadow.png using Guid(6bf2e5e984f8bf84bb3c55d04cc304f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '875711e61ad5ab00bb9f936d50181b9b') in 0.037378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Fancy UI/Style_Stroke/Oval/Buttons/Short/Short_Short_Button_Oval_Blue_StyleStroke.png
+  artifactKey: Guid(d29c28c3c180aa148a7b2be8b056e409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Stroke/Oval/Buttons/Short/Short_Short_Button_Oval_Blue_StyleStroke.png using Guid(d29c28c3c180aa148a7b2be8b056e409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e1a60a6a1d75a3ea9954b3c3351864') in 0.042310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Fancy UI/Style_Stroke/Diamond/Progress Bar/Foreground/ProgressBar_Diamond_Foreground_Green_StyleStroke.png
+  artifactKey: Guid(1e0f5bb12d952cd40b5d2bcf64a7653c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Stroke/Diamond/Progress Bar/Foreground/ProgressBar_Diamond_Foreground_Green_StyleStroke.png using Guid(1e0f5bb12d952cd40b5d2bcf64a7653c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a38bb61620478dd6a64fc3ea69d70c') in 0.023234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Fancy UI/Style_Shadow/Oval/Buttons/Short/Short_Button_Oval_Red_StyleShadow.png
+  artifactKey: Guid(ac8c6b40a6aafac45a839bfb890bd012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Shadow/Oval/Buttons/Short/Short_Button_Oval_Red_StyleShadow.png using Guid(ac8c6b40a6aafac45a839bfb890bd012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d92f8b5c6ee5134355c41ddb7f67f7d') in 0.041415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.077167 seconds.
+  path: Assets/Fancy UI/Style_Shadow/Oval/Sliders/Knob/Slider_OvalKnob_Green_StyleShadow.png
+  artifactKey: Guid(636031395b6bcd64491fe243f5b51ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Shadow/Oval/Sliders/Knob/Slider_OvalKnob_Green_StyleShadow.png using Guid(636031395b6bcd64491fe243f5b51ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b2202601ee420c3c77aebd1904fa1c') in 0.064060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Fancy UI/Style_Shadow/Oval/Sliders/Knob/Slider_OvalKnob_Blue_StyleShadow.png
+  artifactKey: Guid(b8453bd770c889b469451e8f3219ade4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Shadow/Oval/Sliders/Knob/Slider_OvalKnob_Blue_StyleShadow.png using Guid(b8453bd770c889b469451e8f3219ade4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd163eea4fb63859031cb6bdcf06a39ab') in 0.040240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Fancy UI/Style_Fill/Oval/Sliders/Foreground/Slider_Oval_Foreground_Yellow_StyleFill.png
+  artifactKey: Guid(5442a1bea81dda240a61147578ddeb7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Oval/Sliders/Foreground/Slider_Oval_Foreground_Yellow_StyleFill.png using Guid(5442a1bea81dda240a61147578ddeb7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3492b3b34be63894db3cbe1a501bbc48') in 0.027043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Fancy UI/Style_Fill/Oval/Sliders/Foreground/Slider_Oval_Foreground_White_StyleFill.png
+  artifactKey: Guid(2cd14360453a1d04085f4c9a9c23ebc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Oval/Sliders/Foreground/Slider_Oval_Foreground_White_StyleFill.png using Guid(2cd14360453a1d04085f4c9a9c23ebc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f9fbe56faab63fa98d46e7df35883c9') in 0.022195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Fancy UI/Style_Fill/Oval/Sliders/Knob/Slider_OvalKnob_Pink_StyleFill.png
+  artifactKey: Guid(928c5b07044aebc42b3bacd1c2019418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Oval/Sliders/Knob/Slider_OvalKnob_Pink_StyleFill.png using Guid(928c5b07044aebc42b3bacd1c2019418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8922f0ae6b99fc94c64e08f976099595') in 0.042276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Fancy UI/Style_Stroke/Oval/Sliders/Foreground/Slider_Oval_Foreground_Pink_StyleStroke.png
+  artifactKey: Guid(07d6e6e645e2a3c459e5a0e15f1f2da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Stroke/Oval/Sliders/Foreground/Slider_Oval_Foreground_Pink_StyleStroke.png using Guid(07d6e6e645e2a3c459e5a0e15f1f2da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e50e515420d82e45cda98b324a1ba58d') in 0.036627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Fancy UI/Style_Fill/Oval/Sliders/Foreground/Slider_Oval_Foreground_Purple_StyleFill.png
+  artifactKey: Guid(70ea9e913ef5ead46a39dd7e604f2bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Oval/Sliders/Foreground/Slider_Oval_Foreground_Purple_StyleFill.png using Guid(70ea9e913ef5ead46a39dd7e604f2bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5be4b40741fb1ac1c2dc62b4459f4952') in 0.022464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Fancy UI/Style_Fill/Oval/Sliders/Foreground/Slider_Oval_Foreground_Red_StyleFill.png
+  artifactKey: Guid(4ff574a228c3ccf4b9d8705f02622fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Oval/Sliders/Foreground/Slider_Oval_Foreground_Red_StyleFill.png using Guid(4ff574a228c3ccf4b9d8705f02622fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c5f8dfa3ccfe0fdb444fba3d7c71d65') in 0.028177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.302372 seconds.
+  path: Assets/Fancy UI/Style_Fill/Oval/Sliders/Foreground/Slider_Oval_Foreground_Green_StyleFill.png
+  artifactKey: Guid(c5f460adf091a1f4a9e6e1bf2412b409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Oval/Sliders/Foreground/Slider_Oval_Foreground_Green_StyleFill.png using Guid(c5f460adf091a1f4a9e6e1bf2412b409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa744b7af92c6259222c13cff39530d') in 0.036240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Fancy UI/Style_Stroke/Oval/Sliders/Foreground/Slider_Oval_Foreground_Blue_StyleStroke.png
+  artifactKey: Guid(33ff4d44b5a3b2649bc6c561ebc906db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Stroke/Oval/Sliders/Foreground/Slider_Oval_Foreground_Blue_StyleStroke.png using Guid(33ff4d44b5a3b2649bc6c561ebc906db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7be55b6a30105d8a0c9de97cf39f482') in 0.028685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Fancy UI/Style_Fill/Oval/Sliders/Foreground/Slider_Oval_Foreground_Blue_StyleFill.png
+  artifactKey: Guid(da8490c44413dfb4ba454910b5b8ce89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Oval/Sliders/Foreground/Slider_Oval_Foreground_Blue_StyleFill.png using Guid(da8490c44413dfb4ba454910b5b8ce89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dfb225a70b98755bcbbd13c3222f9bb') in 0.017431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.281404 seconds.
+  path: Assets/Fancy UI/Style_Shadow/Diamond/Buttons/Short/Short_Button_Diamond__Purple_StyleShadow.png
+  artifactKey: Guid(e3701e31516e0674bb8278bd52c3f6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Shadow/Diamond/Buttons/Short/Short_Button_Diamond__Purple_StyleShadow.png using Guid(e3701e31516e0674bb8278bd52c3f6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8e0c78bbd05179cc06757db31d448dd') in 0.130985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.319486 seconds.
+  path: Assets/Fancy UI/Style_Stroke/Rounded_Rectangle/Ribbons/Color Ribbons/Ribbon_Red_StyleStroke.png
+  artifactKey: Guid(0233b454efedb1540811541e64114d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Stroke/Rounded_Rectangle/Ribbons/Color Ribbons/Ribbon_Red_StyleStroke.png using Guid(0233b454efedb1540811541e64114d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2fcc1a012ad3929343cf59eda7e148a') in 0.158325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.290124 seconds.
+  path: Assets/Fancy UI/Style_Fill/Rounded_Rectangle/Radio Buttons/RadioButton_RoundedRectangle_Gray_Select_StyleFill.png
+  artifactKey: Guid(c5e87ccb566624e47a24c5d68326fc5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Rounded_Rectangle/Radio Buttons/RadioButton_RoundedRectangle_Gray_Select_StyleFill.png using Guid(c5e87ccb566624e47a24c5d68326fc5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d4f2e6f010a14a47b070eca5689f394') in 0.153089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 42.940017 seconds.
+  path: Assets/Fancy UI/Style_Fill/Diamond/Radio Buttons/RadioButton_Diamond_Gray_Select_StyleFill.png
+  artifactKey: Guid(e10239155cd03a54784a798fc8fe8e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Diamond/Radio Buttons/RadioButton_Diamond_Gray_Select_StyleFill.png using Guid(e10239155cd03a54784a798fc8fe8e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d3ccd598d311036e6234c50e0acb95') in 0.195955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Fancy UI/Style_Shadow/Diamond/Buttons/Long/Long_Button_Diamond_Pink_StyleShadow.png
+  artifactKey: Guid(03a433418dc286f4482a4094e49d1d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Shadow/Diamond/Buttons/Long/Long_Button_Diamond_Pink_StyleShadow.png using Guid(03a433418dc286f4482a4094e49d1d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07b6feabc6de731d3116f8c1fcc0d29c') in 0.033335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.004374 seconds.
+  path: Assets/Fancy UI/Style_Shadow/Diamond/Buttons/Long/Long_Button_Diamond_Gray_StyleShadow.png
+  artifactKey: Guid(d41a8b3c59e8d3d4faeca070df43c927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Shadow/Diamond/Buttons/Long/Long_Button_Diamond_Gray_StyleShadow.png using Guid(d41a8b3c59e8d3d4faeca070df43c927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '642537e15880560eecabf6e93fae063b') in 0.407397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001006 seconds.
+  path: Assets/Fancy UI/Shared Elements/Icons/Icon_White/Icon_Exit.png
+  artifactKey: Guid(bb0a22fd72f99374eb977fbb73bd04be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Shared Elements/Icons/Icon_White/Icon_Exit.png using Guid(bb0a22fd72f99374eb977fbb73bd04be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4bd37f5294d81926ff72da8456a113') in 0.316011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Fancy UI/Style_Fill/Oval/Radio Buttons/RadioButton_Oval_Gray_Empty_StyleFill.png
+  artifactKey: Guid(6daf191c03e80f242a7e9b4d451b7149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Oval/Radio Buttons/RadioButton_Oval_Gray_Empty_StyleFill.png using Guid(6daf191c03e80f242a7e9b4d451b7149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21dcf81657788968452a3fd3623f4b70') in 0.255251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Fancy UI/Style_Fill/Rounded_Rectangle/Radio Buttons/RadioButton_RoundedRectangle_Gray_Empty_StyleFill.png
+  artifactKey: Guid(ea58a4b21b0c65f4badc53a7d353be1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Rounded_Rectangle/Radio Buttons/RadioButton_RoundedRectangle_Gray_Empty_StyleFill.png using Guid(ea58a4b21b0c65f4badc53a7d353be1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab166131286b87d8208bb359c975fcd5') in 0.139785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001862 seconds.
+  path: Assets/Fancy UI/Style_Fill/Rounded_Rectangle/Checkboxes/Checkbox_RoundedRectangle_Gray_Empty_StyleFill.png
+  artifactKey: Guid(a120ddd17a886f74d9a2a333e377a733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Rounded_Rectangle/Checkboxes/Checkbox_RoundedRectangle_Gray_Empty_StyleFill.png using Guid(a120ddd17a886f74d9a2a333e377a733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efea2fc24fdf44528e7e336cf32203f7') in 0.129293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.007634 seconds.
+  path: Assets/Fancy UI/Style_Stroke/Oval/Radio Buttons/RadioButton_Oval_Gray_Empty_StyleStroke.png
+  artifactKey: Guid(03e25bb2d60aff343a359714133e0db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Stroke/Oval/Radio Buttons/RadioButton_Oval_Gray_Empty_StyleStroke.png using Guid(03e25bb2d60aff343a359714133e0db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a0201ee9d1b9d496608c426dbe50a3') in 0.381297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Fancy UI/Shared Elements/Icons/Icon_White/Icon_Sound.png
+  artifactKey: Guid(0a23afe15c56b4d4a89fd70df44f637a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Shared Elements/Icons/Icon_White/Icon_Sound.png using Guid(0a23afe15c56b4d4a89fd70df44f637a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3971dec1987b030cbc15407b629bab5') in 0.415020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000566 seconds.
+  path: Assets/Fancy UI/Shared Elements/Icons/Icon_White/Icon_Arrow.png
+  artifactKey: Guid(7fe6cbefeda1866408d12b4cac0d4ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Shared Elements/Icons/Icon_White/Icon_Arrow.png using Guid(7fe6cbefeda1866408d12b4cac0d4ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f2ae95ddef8cfec331b32a16943ed35') in 0.277014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Fancy UI/Style_Fill/Diamond/Progress Bar/Foreground/ProgressBar_Diamond_Foreground_Red_StyleFill.png
+  artifactKey: Guid(7f9026bfb3d80f64d85e541fd0e0c315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Diamond/Progress Bar/Foreground/ProgressBar_Diamond_Foreground_Red_StyleFill.png using Guid(7f9026bfb3d80f64d85e541fd0e0c315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a34b9dbefea96fe68d5fed6e5795da89') in 0.375785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000491 seconds.
+  path: Assets/Fancy UI/Style_Fill/Diamond/Buttons/Long/Long_Button_Diamond_Green_StyleFill.png
+  artifactKey: Guid(718d427465b48cb43b643ab1c6716c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Diamond/Buttons/Long/Long_Button_Diamond_Green_StyleFill.png using Guid(718d427465b48cb43b643ab1c6716c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51759bdd8a32b9a23113f80d1cea0be2') in 0.225590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Fancy UI/Style_Fill/Diamond/Buttons/Long/Long_Button_Diamond_Red_StyleFill.png
+  artifactKey: Guid(91904c8daa098b94b943c9218ac26a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Diamond/Buttons/Long/Long_Button_Diamond_Red_StyleFill.png using Guid(91904c8daa098b94b943c9218ac26a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b2abf81a5ffd5dd97208373cb6424d3') in 0.229676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Fancy UI/Style_Stroke/Diamond/Buttons/Long/Long_Button_Diamond_Blue_StyleStroke.png
+  artifactKey: Guid(65274b2275065c04ab659590c581ab54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Stroke/Diamond/Buttons/Long/Long_Button_Diamond_Blue_StyleStroke.png using Guid(65274b2275065c04ab659590c581ab54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa52da60c00c4552e4146d5b5f8dd7dd') in 0.241438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Fancy UI/Style_Fill/Diamond/Buttons/Long/Long_Button_Diamond_Blue_StyleFill.png
+  artifactKey: Guid(7741f1c074e41e847b0cc4dc613104a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Diamond/Buttons/Long/Long_Button_Diamond_Blue_StyleFill.png using Guid(7741f1c074e41e847b0cc4dc613104a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43bd592a441d47cdfdefa8dcf799cf2a') in 0.130876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Fancy UI/Style_Shadow/Diamond/Buttons/Long/Long_Button_Diamond_Purple_StyleShadow.png
+  artifactKey: Guid(ea3888d745d1cc145965585238d35c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Shadow/Diamond/Buttons/Long/Long_Button_Diamond_Purple_StyleShadow.png using Guid(ea3888d745d1cc145965585238d35c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65c7f771957dd489a35c32939de56945') in 0.093427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Fancy UI/Style_Shadow/Diamond/Progress Bar/Foreground/ProgressBar_Diamond_Foreground_Red_StyleShadow.png
+  artifactKey: Guid(da9d5db0ea3b3ef499dbde1e1a9285f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Shadow/Diamond/Progress Bar/Foreground/ProgressBar_Diamond_Foreground_Red_StyleShadow.png using Guid(da9d5db0ea3b3ef499dbde1e1a9285f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf34108adf291ed841f624af5114c213') in 0.031013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Fancy UI/Shared Elements/Icons/Icon_White/Icon_Home.png
+  artifactKey: Guid(4d21c6117938c414a98b1c5457da6b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Shared Elements/Icons/Icon_White/Icon_Home.png using Guid(4d21c6117938c414a98b1c5457da6b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eecdff43f35c2691defabffe90f8c12e') in 0.078663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Fancy UI/Style_Fill/Diamond/Buttons/Long/Long_Button_Diamond_Gray_StyleFill.png
+  artifactKey: Guid(d6482138857628a469c88e916346cfd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Diamond/Buttons/Long/Long_Button_Diamond_Gray_StyleFill.png using Guid(d6482138857628a469c88e916346cfd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47653ab2b0eff4f2fc15abe7ed034765') in 0.078246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 32.571393 seconds.
+  path: Assets/Fancy UI/Style_Shadow/Diamond/Buttons/Long/Long_Button_Diamond_Yellow_StyleShadow.png
+  artifactKey: Guid(df01db76e6605444db5d2168bbf39bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Shadow/Diamond/Buttons/Long/Long_Button_Diamond_Yellow_StyleShadow.png using Guid(df01db76e6605444db5d2168bbf39bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f04fbe3acce091482b0eaef74d31b16') in 0.105276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Fancy UI/Style_Stroke/Oval/Buttons/Long/Long_Button_Oval_Purple_StyleStroke.png
+  artifactKey: Guid(30e11c1af79a43b4298d6ab921734b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Stroke/Oval/Buttons/Long/Long_Button_Oval_Purple_StyleStroke.png using Guid(30e11c1af79a43b4298d6ab921734b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa066c71a26f9906b6ba4eacdd553b30') in 0.156985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001261 seconds.
+  path: Assets/Fancy UI/Style_Stroke/Oval/Progress Bar/Foreground/ProgressBar_Oval_Foreground_Pink_StyleStroke.png
+  artifactKey: Guid(0240ea10617d1ad4cb15446a3c6175b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Stroke/Oval/Progress Bar/Foreground/ProgressBar_Oval_Foreground_Pink_StyleStroke.png using Guid(0240ea10617d1ad4cb15446a3c6175b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e738e5bbd58058ad19efed6f997a27a') in 0.296762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Fancy UI/Style_Fill/Rounded_Rectangle/Progress bar/Foreground/ProgressBar_RoundedRectangle_Foreground_Pink_StyleFill.png
+  artifactKey: Guid(6c133da0f3e16184d9d0361e76029cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Rounded_Rectangle/Progress bar/Foreground/ProgressBar_RoundedRectangle_Foreground_Pink_StyleFill.png using Guid(6c133da0f3e16184d9d0361e76029cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a885a05fa4aa4eabe06c63d0094262') in 0.133803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Fancy UI/Style_Fill/Oval/Progress bar/Foreground/ProgressBar_Oval_Foreground_Yellow_StyleFill.png
+  artifactKey: Guid(a2c02ab911c34314e853537f3b449404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Oval/Progress bar/Foreground/ProgressBar_Oval_Foreground_Yellow_StyleFill.png using Guid(a2c02ab911c34314e853537f3b449404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d7a3802994ae2f96c92df315755de5') in 0.291247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Fancy UI/Style_Fill/Oval/Buttons/Long/Long_Button_Oval_Pink_StyleFill.png
+  artifactKey: Guid(165fead314270a44da57b62bdb8e9713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Oval/Buttons/Long/Long_Button_Oval_Pink_StyleFill.png using Guid(165fead314270a44da57b62bdb8e9713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '434944e218032632eff574450de46147') in 0.177884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Fancy UI/Style_Fill/Oval/Progress bar/Foreground/ProgressBar_Oval_Foreground_Purple_StyleFill.png
+  artifactKey: Guid(b032d6fc8e131624489be4ae12b97217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Oval/Progress bar/Foreground/ProgressBar_Oval_Foreground_Purple_StyleFill.png using Guid(b032d6fc8e131624489be4ae12b97217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3415c31d1fd9a05e440549c6b46b3ae1') in 0.398579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Fancy UI/Style_Fill/Rounded_Rectangle/Progress bar/Foreground/ProgressBar_RoundedRectangle_Foreground_White_StyleFill.png
+  artifactKey: Guid(934c9fb983e65f64da7cf5f9459d42b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Rounded_Rectangle/Progress bar/Foreground/ProgressBar_RoundedRectangle_Foreground_White_StyleFill.png using Guid(934c9fb983e65f64da7cf5f9459d42b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d2166406deac59387f5bac30f81244') in 0.264962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000763 seconds.
+  path: Assets/Fancy UI/Style_Shadow/Rounded_Rectangle/Progress Bar/Foreground/ProgressBar_RoundedRectangle_Foreground_Red_StyleShadow.png
+  artifactKey: Guid(ac40d3946b124134482c1d6d711e073e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Shadow/Rounded_Rectangle/Progress Bar/Foreground/ProgressBar_RoundedRectangle_Foreground_Red_StyleShadow.png using Guid(ac40d3946b124134482c1d6d711e073e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eddc84a78addad8f4000fadc8a87e77') in 0.228633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/Fancy UI/Style_Stroke/Rounded_Rectangle/Progress Bar/Foreground/ProgressBar_RounedRectangle_Foreground_Pink_StyleStroke.png
+  artifactKey: Guid(5ef4001ee61130c4a9060fa5f15133f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Stroke/Rounded_Rectangle/Progress Bar/Foreground/ProgressBar_RounedRectangle_Foreground_Pink_StyleStroke.png using Guid(5ef4001ee61130c4a9060fa5f15133f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f908059da01daedc1f8c3f9486c7b3e6') in 0.331626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Fancy UI/Style_Shadow/Rounded_Rectangle/Buttons/Long/Long_Button_RoundedRectangle_Green_StyleShadow.png
+  artifactKey: Guid(43b057ea23d63fe45a85eb0d4c6109d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Shadow/Rounded_Rectangle/Buttons/Long/Long_Button_RoundedRectangle_Green_StyleShadow.png using Guid(43b057ea23d63fe45a85eb0d4c6109d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9df81deb66aa3d9288c96d21be9e8731') in 0.218222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Fancy UI/Style_Shadow/Oval/Buttons/Long/Long_Button_Oval_Yellow_StyleShadow.png
+  artifactKey: Guid(79da2fb20b57fb0408afe2745edecbe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Shadow/Oval/Buttons/Long/Long_Button_Oval_Yellow_StyleShadow.png using Guid(79da2fb20b57fb0408afe2745edecbe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d6f0bc95c5457799d38968e64d953d') in 0.068063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Fancy UI/Style_Stroke/Oval/Buttons/Long/Long_Button_Oval_Pink_StyleStroke.png
+  artifactKey: Guid(5359f6ee582810a4fa81362601162689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Stroke/Oval/Buttons/Long/Long_Button_Oval_Pink_StyleStroke.png using Guid(5359f6ee582810a4fa81362601162689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b82894eef59b14f523684cb2b31a543') in 0.056246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Fancy UI/Style_Fill/Rounded_Rectangle/Progress bar/Background/ProgressBar_RoundedRectangle_Background_Gray_StyleFill.png
+  artifactKey: Guid(0adcaf279718af04b9a5150f7dff4127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Rounded_Rectangle/Progress bar/Background/ProgressBar_RoundedRectangle_Background_Gray_StyleFill.png using Guid(0adcaf279718af04b9a5150f7dff4127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd100d83185a135dfd2ec840d40dc59d6') in 0.026343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Fancy UI/Style_Shadow/Oval/Progress bar/Foreground/ProgressBar_Oval_Foreground_Yellow_StyleShadow.png
+  artifactKey: Guid(9528e64edb5fcc14db597ed844235bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Shadow/Oval/Progress bar/Foreground/ProgressBar_Oval_Foreground_Yellow_StyleShadow.png using Guid(9528e64edb5fcc14db597ed844235bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ade85ed7ff0750b2b731f720b7e3aee3') in 0.023300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Fancy UI/Style_Shadow/Oval/Progress bar/Foreground/ProgressBar_Oval_Foreground_Pink_StyleShadow.png
+  artifactKey: Guid(0bfde87d018965d49956a8acfe97580b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Shadow/Oval/Progress bar/Foreground/ProgressBar_Oval_Foreground_Pink_StyleShadow.png using Guid(0bfde87d018965d49956a8acfe97580b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6096afdb3ae4e73c5ad1ba8f2b046e59') in 0.029410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 36.010648 seconds.
+  path: Assets/Fancy UI/Style_Shadow/Diamond/Radio Buttons/RadioButton_Diamond_Gray_Empty_StyleShadow.png
+  artifactKey: Guid(4432784b1e4913c4ca1da9a8bce515c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Shadow/Diamond/Radio Buttons/RadioButton_Diamond_Gray_Empty_StyleShadow.png using Guid(4432784b1e4913c4ca1da9a8bce515c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00ecd67a46ed9a9f7adb0267fe65b4e1') in 0.220120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.138865 seconds.
+  path: Assets/Fancy UI/Style_Fill/Diamond/Checkboxes/Checkbox_Diamond_Gray_Checkmark_Empty_StyleFill.png
+  artifactKey: Guid(17fe6ab8a297a6340859f67322d65d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fancy UI/Style_Fill/Diamond/Checkboxes/Checkbox_Diamond_Gray_Checkmark_Empty_StyleFill.png using Guid(17fe6ab8a297a6340859f67322d65d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '970d89c9b4e0737f95baa5e88becee9a') in 0.180604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 68.093093 seconds.
+  path: Assets/AllSkyFree/Night MoonBurst/Night Moon Burst_Cam_0_Front+Z.png
+  artifactKey: Guid(6faf329ad7f5a4920bd3e23e4b000057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Night MoonBurst/Night Moon Burst_Cam_0_Front+Z.png using Guid(6faf329ad7f5a4920bd3e23e4b000057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83e91aa2a4b99918b0d3f1e6afa396be') in 0.149650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/AllSkyFree/Night MoonBurst/Night Moon Burst_Cam_4_Up+Y.png
+  artifactKey: Guid(544d3cf87e24a464fa433d08257479d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Night MoonBurst/Night Moon Burst_Cam_4_Up+Y.png using Guid(544d3cf87e24a464fa433d08257479d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b51f9fc1486773e5b439e7a5f62f9e') in 0.532528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.071294 seconds.
+  path: Assets/Protest_Riot/ProtestRiot-Regular SDF.asset
+  artifactKey: Guid(2de6e675af615ef4c9dccbea4c4c537a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Protest_Riot/ProtestRiot-Regular SDF.asset using Guid(2de6e675af615ef4c9dccbea4c4c537a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df64383ae6b250041185c082a2bda772') in 0.256923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 6.877313 seconds.
+  path: Assets/Prefabs/textures/gltf_embedded_1@channels=A.png
+  artifactKey: Guid(e9119b760385eb3429090fd49ac3ca3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/textures/gltf_embedded_1@channels=A.png using Guid(e9119b760385eb3429090fd49ac3ca3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef2d5b60fd5baf562b57519b96f36b18') in 0.292281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.343693 seconds.
+  path: Assets/Prefabs/textures/gltf_embedded_0.png
+  artifactKey: Guid(3271458767284114c8c73831fbd2ec2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/textures/gltf_embedded_0.png using Guid(3271458767284114c8c73831fbd2ec2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '417e4c9ea510908a130d0999d29b1a51') in 0.042232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.267875 seconds.
+  path: Assets/AllSkyFree/Cold Sunset/Cold Sunset__Cam_4_Up+Y.png
+  artifactKey: Guid(c9658c52dbf374bf6aeeb26310f71145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Cold Sunset/Cold Sunset__Cam_4_Up+Y.png using Guid(c9658c52dbf374bf6aeeb26310f71145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '900c792283bad2f8b21692598c105580') in 0.111783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AllSkyFree/Cold Sunset/Cold Sunset__Cam_3_Right-X.png
+  artifactKey: Guid(1f225a337fa434ec1b937d9c8b70a667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Cold Sunset/Cold Sunset__Cam_3_Right-X.png using Guid(1f225a337fa434ec1b937d9c8b70a667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9973fa6f1386d2ed5fbd9f05af70cdf') in 0.033104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.405300 seconds.
+  path: Assets/AllSkyFree/Cold Sunset/Cold Sunset Equirect.png
+  artifactKey: Guid(6fa3f446deee84c52aec507bd0aca28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Cold Sunset/Cold Sunset Equirect.png using Guid(6fa3f446deee84c52aec507bd0aca28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189e887670af49d5a428bd0fb0c96c65') in 0.373569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 13.351067 seconds.
+  path: Assets/AllSkyFree/Night MoonBurst/AllSky_Night_MoonBurst Equirect.png
+  artifactKey: Guid(34a763168147f4182a21b9fd004d67de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Night MoonBurst/AllSky_Night_MoonBurst Equirect.png using Guid(34a763168147f4182a21b9fd004d67de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d09fec865fce885411d2306390440e') in 0.275963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.359 seconds
+Refreshing native plugins compatible for Editor in 2.19 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.603 seconds
+Domain Reload Profiling: 960ms
+	BeginReloadAssembly (117ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (178ms)
+		LoadAssemblies (230ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (603ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (271ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (187ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 4.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3080 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (30.5 KB). Loaded Objects now: 3753.
+Memory consumption went from 123.0 MB to 122.9 MB.
+Total: 4.446800 ms (FindLiveObjects: 0.490100 ms CreateObjectMapping: 0.132100 ms MarkObjects: 3.761700 ms  DeleteObjects: 0.060900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 95.765150 seconds.
+  path: Assets/Prefabs/main-soldier.prefab
+  artifactKey: Guid(d34c4c553353ce74db09a80e5d8b43c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/main-soldier.prefab using Guid(d34c4c553353ce74db09a80e5d8b43c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b076ea5209b4698565d397120b6d0c5') in 0.233008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 188
+========================================================================
+Received Import Request.
+  Time since last request: 2.206871 seconds.
+  path: Assets/Scenes/GameScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5aced06f58567c6022c290653a8b000') in 0.000993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.060141 seconds.
+  path: Assets/Scenes/MainMenuScene.unity
+  artifactKey: Guid(097ce16e005288b46917e77fd09c9d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenuScene.unity using Guid(097ce16e005288b46917e77fd09c9d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b88331dfb04a162552fa725bc72c164') in 0.003855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.799 seconds
+Refreshing native plugins compatible for Editor in 4.81 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.226 seconds
+Domain Reload Profiling: 2021ms
+	BeginReloadAssembly (299ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (354ms)
+		LoadAssemblies (502ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (34ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1227ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (532ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (366ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 5.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3080 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (31.7 KB). Loaded Objects now: 3760.
+Memory consumption went from 123.0 MB to 123.0 MB.
+Total: 5.680600 ms (FindLiveObjects: 0.355500 ms CreateObjectMapping: 0.167800 ms MarkObjects: 5.022500 ms  DeleteObjects: 0.132600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 119.783873 seconds.
+  path: Assets/Scripts/MainMenuManager.cs
+  artifactKey: Guid(57c3f9af435e9e449a239df69c23bc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenuManager.cs using Guid(57c3f9af435e9e449a239df69c23bc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d123b2785eb86b1cbc77e22b29d291') in 0.006183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 17.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 3760.
+Memory consumption went from 75.2 MB to 75.2 MB.
+Total: 18.000600 ms (FindLiveObjects: 0.893000 ms CreateObjectMapping: 0.303800 ms MarkObjects: 16.766800 ms  DeleteObjects: 0.032900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 3760.
+Memory consumption went from 75.2 MB to 75.2 MB.
+Total: 4.878400 ms (FindLiveObjects: 0.359300 ms CreateObjectMapping: 0.224100 ms MarkObjects: 4.272100 ms  DeleteObjects: 0.021100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

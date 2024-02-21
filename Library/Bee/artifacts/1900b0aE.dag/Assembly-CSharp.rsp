@@ -365,6 +365,7 @@
 "Assets/Scripts/MainMenuManager.cs"
 "Assets/Scripts/Pistol.cs"
 "Assets/Scripts/PlayerController.cs"
+"Assets/Scripts/TimerScript.cs"
 "Assets/ShootScript.cs"
 -langversion:9.0
 

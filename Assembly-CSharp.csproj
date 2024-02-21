@@ -65,6 +65,7 @@
     <Compile Include="Assets\ShootScript.cs" />
     <Compile Include="Assets\Scripts\BarrelPlusOne.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\TimerScript.cs" />
     <Compile Include="Assets\Scripts\BarrelPlusTwo.cs" />
   </ItemGroup>
   <ItemGroup>
