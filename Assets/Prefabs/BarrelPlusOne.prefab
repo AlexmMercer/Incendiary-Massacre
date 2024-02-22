@@ -218,7 +218,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1a29b41138623a468027cbbbad5e512, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerToInstantiate: {fileID: 0}
+  playerToInstantiate: {fileID: 6490642442334763262, guid: d34c4c553353ce74db09a80e5d8b43c8, type: 3}
   lifeTime: 35
   pointsLife: 3
 --- !u!65 &193885009171154285

@@ -3,11 +3,14 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - BarrelPlusOne
     - BarrelPlusTwo
+    - BarrelsWaveManager
     - Bullet
+    - FirstProtester
     - MainMenuManager
     - PlayerController
     - ShootScript
     - TimerScript
+    - WaveManager
     DOTween.dll:
     - DG.Tweening.Core.DOTweenSettings
     Unity.Rider.Editor.dll:
@@ -114,6 +117,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16644}
     - Class: 114
+      Script: {instanceID: 16954}
+    - Class: 114
       Script: {instanceID: 17348}
     - Class: 114
       Script: {instanceID: 17634}
@@ -136,9 +141,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 21042}
     - Class: 114
-      Script: {instanceID: 22504}
+      Script: {instanceID: 21150}
     - Class: 114
-      Script: {instanceID: 24332}
+      Script: {instanceID: 22506}
+    - Class: 114
+      Script: {instanceID: 22814}
+    - Class: 114
+      Script: {instanceID: 25748}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -903,6 +912,12 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
+      Hash: 696581f65d25fcca01d780dfd3054d2c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TimerScript
+  - hash:
+      serializedVersion: 2
       Hash: f4f39b64f410b0cd98b49df4bad0eb7e
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
@@ -1113,10 +1128,16 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 696581f65d25fcca01d780dfd3054d2c
+      Hash: a34bc522d699b7973166ac291c7a4058
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: TimerScript
+    className: WaveManager
+  - hash:
+      serializedVersion: 2
+      Hash: 2015d70ac3389eacff153ea9db783f55
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: BarrelsWaveManager
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenuScene.unity

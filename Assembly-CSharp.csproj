@@ -59,11 +59,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\FirstProtester.cs" />
+    <Compile Include="Assets\WaveManager.cs" />
     <Compile Include="Assets\Scripts\Pistol.cs" />
     <Compile Include="Assets\Scripts\Bullet.cs" />
     <Compile Include="Assets\Scripts\MainMenuManager.cs" />
     <Compile Include="Assets\ShootScript.cs" />
     <Compile Include="Assets\Scripts\BarrelPlusOne.cs" />
+    <Compile Include="Assets\BarrelsWaveManager.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\TimerScript.cs" />
     <Compile Include="Assets\Scripts\BarrelPlusTwo.cs" />
