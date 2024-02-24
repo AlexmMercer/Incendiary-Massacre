@@ -62,6 +62,8 @@
     <Compile Include="Assets\WaveManager.cs" />
     <Compile Include="Assets\Scripts\Pistol.cs" />
     <Compile Include="Assets\Scripts\Bullet.cs" />
+    <Compile Include="Assets\RedLineScript.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\MainMenuManager.cs" />
     <Compile Include="Assets\ShootScript.cs" />
     <Compile Include="Assets\Scripts\BarrelPlusOne.cs" />

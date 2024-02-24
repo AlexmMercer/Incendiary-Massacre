@@ -6,6 +6,7 @@ public class BarrelPlusOne : MonoBehaviour
 {
     [SerializeField] private GameObject playerToInstantiate;
     [SerializeField] private float lifeTime = 35.0f;
+    [SerializeField] private float barrelSpeed = 7.0f;
     [SerializeField] private int pointsLife = 3;
     [SerializeField] private GameObject[] lifeDigits;
     private int lifeIndex = 2;
@@ -28,6 +29,6 @@ public class BarrelPlusOne : MonoBehaviour
                 Instantiate(playerToInstantiate, new Vector3(soldiers[soldiers.Length - 1].transform.position.x - 15.0f, playerToInstantiate.transform.position.y, playerToInstantiate.transform.position.z), playerToInstantiate.transform.rotation);
             }
         }
-        transform.Translate(Vector3.right * (-10.0f) * Time.deltaTime);
+        transform.Translate(Vector3.right * (-barrelSpeed) * Time.deltaTime);
     }
 }

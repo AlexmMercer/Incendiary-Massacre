@@ -5,6 +5,7 @@ using UnityEngine;
 public class FirstProtester : MonoBehaviour
 {
     [SerializeField] private int lifeVal = 2;
+    [SerializeField] private float speedVal = 13.0f;
     private void OnTriggerEnter(Collider collision)
     {
         if(collision.gameObject.TryGetComponent<Bullet>(out var bullet))
@@ -22,7 +23,7 @@ public class FirstProtester : MonoBehaviour
         }
         else
         {
-            transform.Translate(Vector3.right * (-18.0f) * Time.deltaTime);
+            transform.Translate(Vector3.right * (-speedVal) * Time.deltaTime);
         }
     }
 }

@@ -29,8 +29,8 @@ public class ShootScript : MonoBehaviour
     void moveBullet()
     {
         shootEffect.Play();
-        GameObject bullet = Instantiate(bulletPrefab, shootPos.transform.position, Quaternion.identity);
+        GameObject bullet = Instantiate(bulletPrefab, shootPos.transform.position, bulletPrefab.transform.rotation);
         bullet.transform.SetParent(null);
-        bullet.GetComponent<Rigidbody>().AddRelativeForce(-Vector3.forward * shotForce);
+        bullet.GetComponent<Rigidbody>().AddRelativeForce(Vector3.up * shotForce);
     }
 }

@@ -10,13 +10,13 @@ public class PlayerController : MonoBehaviour
     private float horizontalInput;
     private float verticalInput;
 
-    // Update is called once per frame
     void Update()
     {
         horizontalInput = Input.GetAxis("Horizontal");
         verticalInput = Input.GetAxis("Vertical");
         transform.Translate(Vector3.forward * horizontalInput * moveSpeed * Time.deltaTime);
-        if (transform.position.z > 44.5f && transform.position.z < 98.6f)
+        if ((transform.position.z > 44.5f && transform.position.z < 99.6f) &&
+            (transform.position.x > -64 && transform.position.x < 67))
         {
             transform.Translate(Vector3.left * verticalInput * moveSpeed * Time.deltaTime);
         } else
@@ -28,6 +28,9 @@ public class PlayerController : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.TryGetComponent<FirstProtester>(out var firstProtester))
+        {
+            Destroy(gameObject);
+        } else if(other.gameObject.TryGetComponent<BarrelPlusOne>(out var barrelPlusOne))
         {
             Destroy(gameObject);
         }

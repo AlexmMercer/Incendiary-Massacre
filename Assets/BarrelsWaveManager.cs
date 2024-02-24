@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class BarrelsWaveManager : MonoBehaviour
 {
-    public GameObject[] barrelPrefabs; // ?????? ?????
-    public Transform[] spawnPoints; // ?????? ????? ????????? ??????
-    public float timeBetweenWaves = 10f;
-    public int barrelsPerWave = 2;
+    public GameObject[] barrelPrefabs;
+    public Transform[] spawnPoints;
+    public float timeBetweenWaves = 7.5f;
+    public int barrelsPerWave = 1;
 
     private int currentWave = 0;
 

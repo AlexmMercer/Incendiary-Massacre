@@ -315,6 +315,7 @@
 "Assets/Scripts/BarrelPlusTwo.cs"
 "Assets/Scripts/Bullet.cs"
 "Assets/Scripts/FirstProtester.cs"
+"Assets/Scripts/GameManager.cs"
 "Assets/Scripts/MainMenuManager.cs"
 "Assets/Scripts/Pistol.cs"
 "Assets/Scripts/PlayerController.cs"
