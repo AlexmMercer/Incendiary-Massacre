@@ -9,6 +9,7 @@ ScriptsOnlyBuild:
     - GameManager
     - MainMenuManager
     - PlayerController
+    - RedLineScript
     - ShootScript
     - TimerScript
     - WaveManager
@@ -136,27 +137,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 19368}
     - Class: 114
-      Script: {instanceID: 20034}
+      Script: {instanceID: 20028}
     - Class: 114
-      Script: {instanceID: 20218}
+      Script: {instanceID: 20036}
     - Class: 114
-      Script: {instanceID: 20460}
+      Script: {instanceID: 20220}
     - Class: 114
-      Script: {instanceID: 20586}
+      Script: {instanceID: 20462}
     - Class: 114
-      Script: {instanceID: 20610}
+      Script: {instanceID: 20588}
     - Class: 114
-      Script: {instanceID: 20734}
+      Script: {instanceID: 20612}
     - Class: 114
-      Script: {instanceID: 21036}
+      Script: {instanceID: 20736}
     - Class: 114
-      Script: {instanceID: 21046}
+      Script: {instanceID: 21038}
     - Class: 114
-      Script: {instanceID: 21154}
+      Script: {instanceID: 21048}
     - Class: 114
-      Script: {instanceID: 22346}
+      Script: {instanceID: 21156}
     - Class: 114
-      Script: {instanceID: 22512}
+      Script: {instanceID: 22348}
+    - Class: 114
+      Script: {instanceID: 22514}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -221,15 +224,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 19344}
     - Class: 114
-      Script: {instanceID: 20034}
+      Script: {instanceID: 20036}
     - Class: 114
-      Script: {instanceID: 20238}
+      Script: {instanceID: 20240}
     - Class: 114
-      Script: {instanceID: 20586}
+      Script: {instanceID: 20588}
     - Class: 114
-      Script: {instanceID: 20734}
+      Script: {instanceID: 20736}
     - Class: 114
-      Script: {instanceID: 21046}
+      Script: {instanceID: 21048}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -279,7 +282,7 @@ ScriptsOnlyBuild:
     className: Image
   - hash:
       serializedVersion: 2
-      Hash: abde8c7e9beb15b9bfcb4541225ea60a
+      Hash: 2baa99c9bb1039a617f780695a9f05ca
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: GameManager
@@ -327,7 +330,7 @@ ScriptsOnlyBuild:
     className: UnityOnMouseExitMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 47779c50af9c9c5d721516ac84382836
+      Hash: e816dd058862dfd7c456743e559110f2
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: FirstProtester
@@ -687,7 +690,7 @@ ScriptsOnlyBuild:
     className: UnityOnCancelMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 88e759372d98ccbedaf38bf1717e7c6c
+      Hash: 68cd6e70a5aa55304f055a795f172bd3
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: BarrelPlusOne
@@ -799,6 +802,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnTriggerExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 0e42c91082859bd75823542140acf076
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RedLineScript
   - hash:
       serializedVersion: 2
       Hash: 1b4a83f2a2f1a4def12cdc9223cce72c

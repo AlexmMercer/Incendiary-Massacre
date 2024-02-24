@@ -24,7 +24,7 @@ public class BarrelPlusOne : MonoBehaviour
         {
             Destroy(gameObject);
             GameObject[] soldiers = GameObject.FindGameObjectsWithTag("Player");
-            if(soldiers.Length <= 3)
+            if(soldiers.Length <= 2)
             {
                 Instantiate(playerToInstantiate, new Vector3(soldiers[soldiers.Length - 1].transform.position.x - 15.0f, playerToInstantiate.transform.position.y, playerToInstantiate.transform.position.z), playerToInstantiate.transform.rotation);
             }

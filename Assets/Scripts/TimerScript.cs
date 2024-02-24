@@ -22,7 +22,7 @@ public class TimerScript : MonoBehaviour
             string minutes = ((int)currentTime / 60).ToString("00");
             string seconds = (currentTime % 60).ToString("00");
             string milliseconds = ((currentTime * 1000) % 1000).ToString("000");
-            timerText.text = minutes + ":" + seconds + "." + milliseconds;
+            timerText.text = minutes + ":" + seconds + ":" + milliseconds;
         }
     }
 
