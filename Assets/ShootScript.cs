@@ -29,6 +29,7 @@ public class ShootScript : MonoBehaviour
     void moveBullet()
     {
         shootEffect.Play();
+        GetComponent<AudioSource>().Play();
         GameObject bullet = Instantiate(bulletPrefab, shootPos.transform.position, bulletPrefab.transform.rotation);
         bullet.transform.SetParent(null);
         bullet.GetComponent<Rigidbody>().AddRelativeForce(Vector3.up * shotForce);
