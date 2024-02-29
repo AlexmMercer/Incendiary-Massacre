@@ -9,12 +9,16 @@ public class BarrelPlusOne : MonoBehaviour
     [SerializeField] private float barrelSpeed = 7.0f;
     [SerializeField] private int pointsLife = 3;
     [SerializeField] private GameObject[] lifeDigits;
+    [SerializeField] GameObject SparksEffect;
+    [SerializeField] GameObject ExplosionEffect;
     private int lifeIndex = 2;
 
     private void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.TryGetComponent<Bullet>(out var bullet))
         {
+            var sparksEffect = Instantiate(SparksEffect, other.gameObject.transform.position, SparksEffect.transform.rotation);
+            sparksEffect.GetComponent<ParticleSystem>().Play();
             pointsLife--;
         }
     }
@@ -22,6 +26,8 @@ public class BarrelPlusOne : MonoBehaviour
     {
         if (pointsLife == 0)
         {
+            var explosionEffect = Instantiate(ExplosionEffect, transform.position, ExplosionEffect.transform.rotation);
+            explosionEffect.GetComponent<ParticleSystem>().Play();
             Destroy(gameObject);
             GameObject[] soldiers = GameObject.FindGameObjectsWithTag("Player");
             if(soldiers.Length <= 2)

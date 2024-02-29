@@ -152,7 +152,19 @@
         144,
         145,
         146,
-        147
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -378,7 +390,7 @@
       "DisplayName": "Writing boot.config_tyr4.info",
       "ActionType": "WriteFile",
       "PayloadOffset": 83,
-      "PayloadLength": 16209,
+      "PayloadLength": 17565,
       "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
       "Inputs": [],
       "Outputs": [
@@ -481,14 +493,24 @@
         "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll",
         "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp-firstpass.dll",
         "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll",
-        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll",
-        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
-        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
+        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
+        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll",
+        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll",
+        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/Unity.Burst.dll",
         "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll",
-        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll",
+        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
         "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll",
+        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll",
+        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll",
+        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll",
+        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.dll",
+        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
+        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll",
+        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll",
         "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Assets/Plugins/Demigiant/DOTween/DOTween.dll",
         "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/PackageCache/com.unity.visualscripting@1.9.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
+        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/PackageCache/com.unity.burst@1.8.8/Unity.Burst.Unsafe.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Runtime.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/netstandard.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Mono.Security.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.ComponentModel.Composition.dll",
@@ -1414,40 +1436,52 @@
       "DebugActionIndex": 91
     },
     {
-      "Annotation": "CopyFiles Builds/Build1/Incendiary Massacre_Data/Managed/Unity.Timeline.dll",
-      "DisplayName": "Copying Unity.Timeline.dll",
+      "Annotation": "CopyFiles Builds/Build1/Incendiary Massacre_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
+      "DisplayName": "Copying Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll"
+        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll"
       ],
       "Outputs": [
-        "Builds/Build1/Incendiary Massacre_Data/Managed/Unity.Timeline.dll"
+        "Builds/Build1/Incendiary Massacre_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll"
       ],
       "DebugActionIndex": 92
     },
     {
-      "Annotation": "CopyFiles Builds/Build1/Incendiary Massacre_Data/Managed/UnityEngine.UI.dll",
-      "DisplayName": "Copying UnityEngine.UI.dll",
+      "Annotation": "CopyFiles Builds/Build1/Incendiary Massacre_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll",
+      "DisplayName": "Copying Unity.RenderPipelines.Core.Runtime.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll"
+        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll"
       ],
       "Outputs": [
-        "Builds/Build1/Incendiary Massacre_Data/Managed/UnityEngine.UI.dll"
+        "Builds/Build1/Incendiary Massacre_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll"
       ],
       "DebugActionIndex": 93
     },
     {
-      "Annotation": "CopyFiles Builds/Build1/Incendiary Massacre_Data/Managed/Unity.TextMeshPro.dll",
-      "DisplayName": "Copying Unity.TextMeshPro.dll",
+      "Annotation": "CopyFiles Builds/Build1/Incendiary Massacre_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll",
+      "DisplayName": "Copying Unity.RenderPipelines.Universal.Runtime.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll"
+        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll"
       ],
       "Outputs": [
-        "Builds/Build1/Incendiary Massacre_Data/Managed/Unity.TextMeshPro.dll"
+        "Builds/Build1/Incendiary Massacre_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll"
       ],
       "DebugActionIndex": 94
+    },
+    {
+      "Annotation": "CopyFiles Builds/Build1/Incendiary Massacre_Data/Managed/Unity.Burst.dll",
+      "DisplayName": "Copying Unity.Burst.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/Unity.Burst.dll"
+      ],
+      "Outputs": [
+        "Builds/Build1/Incendiary Massacre_Data/Managed/Unity.Burst.dll"
+      ],
+      "DebugActionIndex": 95
     },
     {
       "Annotation": "CopyFiles Builds/Build1/Incendiary Massacre_Data/Managed/Unity.VisualScripting.Core.dll",
@@ -1459,19 +1493,19 @@
       "Outputs": [
         "Builds/Build1/Incendiary Massacre_Data/Managed/Unity.VisualScripting.Core.dll"
       ],
-      "DebugActionIndex": 95
+      "DebugActionIndex": 96
     },
     {
-      "Annotation": "CopyFiles Builds/Build1/Incendiary Massacre_Data/Managed/Unity.VisualScripting.State.dll",
-      "DisplayName": "Copying Unity.VisualScripting.State.dll",
+      "Annotation": "CopyFiles Builds/Build1/Incendiary Massacre_Data/Managed/UnityEngine.UI.dll",
+      "DisplayName": "Copying UnityEngine.UI.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll"
+        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll"
       ],
       "Outputs": [
-        "Builds/Build1/Incendiary Massacre_Data/Managed/Unity.VisualScripting.State.dll"
+        "Builds/Build1/Incendiary Massacre_Data/Managed/UnityEngine.UI.dll"
       ],
-      "DebugActionIndex": 96
+      "DebugActionIndex": 97
     },
     {
       "Annotation": "CopyFiles Builds/Build1/Incendiary Massacre_Data/Managed/Unity.VisualScripting.Flow.dll",
@@ -1483,7 +1517,91 @@
       "Outputs": [
         "Builds/Build1/Incendiary Massacre_Data/Managed/Unity.VisualScripting.Flow.dll"
       ],
-      "DebugActionIndex": 97
+      "DebugActionIndex": 98
+    },
+    {
+      "Annotation": "CopyFiles Builds/Build1/Incendiary Massacre_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll",
+      "DisplayName": "Copying Unity.RenderPipeline.Universal.ShaderLibrary.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll"
+      ],
+      "Outputs": [
+        "Builds/Build1/Incendiary Massacre_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll"
+      ],
+      "DebugActionIndex": 99
+    },
+    {
+      "Annotation": "CopyFiles Builds/Build1/Incendiary Massacre_Data/Managed/Unity.Timeline.dll",
+      "DisplayName": "Copying Unity.Timeline.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll"
+      ],
+      "Outputs": [
+        "Builds/Build1/Incendiary Massacre_Data/Managed/Unity.Timeline.dll"
+      ],
+      "DebugActionIndex": 100
+    },
+    {
+      "Annotation": "CopyFiles Builds/Build1/Incendiary Massacre_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll",
+      "DisplayName": "Copying Unity.RenderPipelines.Core.ShaderLibrary.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll"
+      ],
+      "Outputs": [
+        "Builds/Build1/Incendiary Massacre_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll"
+      ],
+      "DebugActionIndex": 101
+    },
+    {
+      "Annotation": "CopyFiles Builds/Build1/Incendiary Massacre_Data/Managed/Unity.Mathematics.dll",
+      "DisplayName": "Copying Unity.Mathematics.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.dll"
+      ],
+      "Outputs": [
+        "Builds/Build1/Incendiary Massacre_Data/Managed/Unity.Mathematics.dll"
+      ],
+      "DebugActionIndex": 102
+    },
+    {
+      "Annotation": "CopyFiles Builds/Build1/Incendiary Massacre_Data/Managed/Unity.TextMeshPro.dll",
+      "DisplayName": "Copying Unity.TextMeshPro.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll"
+      ],
+      "Outputs": [
+        "Builds/Build1/Incendiary Massacre_Data/Managed/Unity.TextMeshPro.dll"
+      ],
+      "DebugActionIndex": 103
+    },
+    {
+      "Annotation": "CopyFiles Builds/Build1/Incendiary Massacre_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll",
+      "DisplayName": "Copying Unity.RenderPipelines.Universal.Shaders.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll"
+      ],
+      "Outputs": [
+        "Builds/Build1/Incendiary Massacre_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll"
+      ],
+      "DebugActionIndex": 104
+    },
+    {
+      "Annotation": "CopyFiles Builds/Build1/Incendiary Massacre_Data/Managed/Unity.VisualScripting.State.dll",
+      "DisplayName": "Copying Unity.VisualScripting.State.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll"
+      ],
+      "Outputs": [
+        "Builds/Build1/Incendiary Massacre_Data/Managed/Unity.VisualScripting.State.dll"
+      ],
+      "DebugActionIndex": 105
     },
     {
       "Annotation": "CopyFiles Builds/Build1/Incendiary Massacre_Data/Managed/DOTween.dll",
@@ -1495,7 +1613,7 @@
       "Outputs": [
         "Builds/Build1/Incendiary Massacre_Data/Managed/DOTween.dll"
       ],
-      "DebugActionIndex": 98
+      "DebugActionIndex": 106
     },
     {
       "Annotation": "CopyFiles Builds/Build1/Incendiary Massacre_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
@@ -1507,7 +1625,31 @@
       "Outputs": [
         "Builds/Build1/Incendiary Massacre_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll"
       ],
-      "DebugActionIndex": 99
+      "DebugActionIndex": 107
+    },
+    {
+      "Annotation": "CopyFiles Builds/Build1/Incendiary Massacre_Data/Managed/Unity.Burst.Unsafe.dll",
+      "DisplayName": "Copying Unity.Burst.Unsafe.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/PackageCache/com.unity.burst@1.8.8/Unity.Burst.Unsafe.dll"
+      ],
+      "Outputs": [
+        "Builds/Build1/Incendiary Massacre_Data/Managed/Unity.Burst.Unsafe.dll"
+      ],
+      "DebugActionIndex": 108
+    },
+    {
+      "Annotation": "CopyFiles Builds/Build1/Incendiary Massacre_Data/Managed/System.Runtime.dll",
+      "DisplayName": "Copying System.Runtime.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Runtime.dll"
+      ],
+      "Outputs": [
+        "Builds/Build1/Incendiary Massacre_Data/Managed/System.Runtime.dll"
+      ],
+      "DebugActionIndex": 109
     },
     {
       "Annotation": "CopyFiles Builds/Build1/Incendiary Massacre_Data/Managed/netstandard.dll",
@@ -1519,7 +1661,7 @@
       "Outputs": [
         "Builds/Build1/Incendiary Massacre_Data/Managed/netstandard.dll"
       ],
-      "DebugActionIndex": 100
+      "DebugActionIndex": 110
     },
     {
       "Annotation": "CopyFiles Builds/Build1/Incendiary Massacre_Data/Managed/Mono.Security.dll",
@@ -1531,7 +1673,7 @@
       "Outputs": [
         "Builds/Build1/Incendiary Massacre_Data/Managed/Mono.Security.dll"
       ],
-      "DebugActionIndex": 101
+      "DebugActionIndex": 111
     },
     {
       "Annotation": "CopyFiles Builds/Build1/Incendiary Massacre_Data/Managed/System.ComponentModel.Composition.dll",
@@ -1543,7 +1685,7 @@
       "Outputs": [
         "Builds/Build1/Incendiary Massacre_Data/Managed/System.ComponentModel.Composition.dll"
       ],
-      "DebugActionIndex": 102
+      "DebugActionIndex": 112
     },
     {
       "Annotation": "CopyFiles Builds/Build1/Incendiary Massacre_Data/Managed/System.Configuration.dll",
@@ -1555,7 +1697,7 @@
       "Outputs": [
         "Builds/Build1/Incendiary Massacre_Data/Managed/System.Configuration.dll"
       ],
-      "DebugActionIndex": 103
+      "DebugActionIndex": 113
     },
     {
       "Annotation": "CopyFiles Builds/Build1/Incendiary Massacre_Data/Managed/System.Core.dll",
@@ -1567,7 +1709,7 @@
       "Outputs": [
         "Builds/Build1/Incendiary Massacre_Data/Managed/System.Core.dll"
       ],
-      "DebugActionIndex": 104
+      "DebugActionIndex": 114
     },
     {
       "Annotation": "CopyFiles Builds/Build1/Incendiary Massacre_Data/Managed/System.Data.DataSetExtensions.dll",
@@ -1579,7 +1721,7 @@
       "Outputs": [
         "Builds/Build1/Incendiary Massacre_Data/Managed/System.Data.DataSetExtensions.dll"
       ],
-      "DebugActionIndex": 105
+      "DebugActionIndex": 115
     },
     {
       "Annotation": "CopyFiles Builds/Build1/Incendiary Massacre_Data/Managed/System.Data.dll",
@@ -1591,7 +1733,7 @@
       "Outputs": [
         "Builds/Build1/Incendiary Massacre_Data/Managed/System.Data.dll"
       ],
-      "DebugActionIndex": 106
+      "DebugActionIndex": 116
     },
     {
       "Annotation": "CopyFiles Builds/Build1/Incendiary Massacre_Data/Managed/System.Drawing.dll",
@@ -1603,7 +1745,7 @@
       "Outputs": [
         "Builds/Build1/Incendiary Massacre_Data/Managed/System.Drawing.dll"
       ],
-      "DebugActionIndex": 107
+      "DebugActionIndex": 117
     },
     {
       "Annotation": "CopyFiles Builds/Build1/Incendiary Massacre_Data/Managed/System.EnterpriseServices.dll",
@@ -1615,7 +1757,7 @@
       "Outputs": [
         "Builds/Build1/Incendiary Massacre_Data/Managed/System.EnterpriseServices.dll"
       ],
-      "DebugActionIndex": 108
+      "DebugActionIndex": 118
     },
     {
       "Annotation": "CopyFiles Builds/Build1/Incendiary Massacre_Data/Managed/System.IO.Compression.FileSystem.dll",
@@ -1627,7 +1769,7 @@
       "Outputs": [
         "Builds/Build1/Incendiary Massacre_Data/Managed/System.IO.Compression.FileSystem.dll"
       ],
-      "DebugActionIndex": 109
+      "DebugActionIndex": 119
     },
     {
       "Annotation": "CopyFiles Builds/Build1/Incendiary Massacre_Data/Managed/System.IO.Compression.dll",
@@ -1639,7 +1781,7 @@
       "Outputs": [
         "Builds/Build1/Incendiary Massacre_Data/Managed/System.IO.Compression.dll"
       ],
-      "DebugActionIndex": 110
+      "DebugActionIndex": 120
     },
     {
       "Annotation": "CopyFiles Builds/Build1/Incendiary Massacre_Data/Managed/System.Net.Http.dll",
@@ -1651,7 +1793,7 @@
       "Outputs": [
         "Builds/Build1/Incendiary Massacre_Data/Managed/System.Net.Http.dll"
       ],
-      "DebugActionIndex": 111
+      "DebugActionIndex": 121
     },
     {
       "Annotation": "CopyFiles Builds/Build1/Incendiary Massacre_Data/Managed/System.Numerics.dll",
@@ -1663,7 +1805,7 @@
       "Outputs": [
         "Builds/Build1/Incendiary Massacre_Data/Managed/System.Numerics.dll"
       ],
-      "DebugActionIndex": 112
+      "DebugActionIndex": 122
     },
     {
       "Annotation": "CopyFiles Builds/Build1/Incendiary Massacre_Data/Managed/System.Runtime.Serialization.dll",
@@ -1675,7 +1817,7 @@
       "Outputs": [
         "Builds/Build1/Incendiary Massacre_Data/Managed/System.Runtime.Serialization.dll"
       ],
-      "DebugActionIndex": 113
+      "DebugActionIndex": 123
     },
     {
       "Annotation": "CopyFiles Builds/Build1/Incendiary Massacre_Data/Managed/System.Security.dll",
@@ -1687,7 +1829,7 @@
       "Outputs": [
         "Builds/Build1/Incendiary Massacre_Data/Managed/System.Security.dll"
       ],
-      "DebugActionIndex": 114
+      "DebugActionIndex": 124
     },
     {
       "Annotation": "CopyFiles Builds/Build1/Incendiary Massacre_Data/Managed/System.ServiceModel.Internals.dll",
@@ -1699,7 +1841,7 @@
       "Outputs": [
         "Builds/Build1/Incendiary Massacre_Data/Managed/System.ServiceModel.Internals.dll"
       ],
-      "DebugActionIndex": 115
+      "DebugActionIndex": 125
     },
     {
       "Annotation": "CopyFiles Builds/Build1/Incendiary Massacre_Data/Managed/System.Transactions.dll",
@@ -1711,7 +1853,7 @@
       "Outputs": [
         "Builds/Build1/Incendiary Massacre_Data/Managed/System.Transactions.dll"
       ],
-      "DebugActionIndex": 116
+      "DebugActionIndex": 126
     },
     {
       "Annotation": "CopyFiles Builds/Build1/Incendiary Massacre_Data/Managed/System.Xml.Linq.dll",
@@ -1723,7 +1865,7 @@
       "Outputs": [
         "Builds/Build1/Incendiary Massacre_Data/Managed/System.Xml.Linq.dll"
       ],
-      "DebugActionIndex": 117
+      "DebugActionIndex": 127
     },
     {
       "Annotation": "CopyFiles Builds/Build1/Incendiary Massacre_Data/Managed/System.Xml.dll",
@@ -1735,7 +1877,7 @@
       "Outputs": [
         "Builds/Build1/Incendiary Massacre_Data/Managed/System.Xml.dll"
       ],
-      "DebugActionIndex": 118
+      "DebugActionIndex": 128
     },
     {
       "Annotation": "CopyFiles Builds/Build1/Incendiary Massacre_Data/Managed/System.dll",
@@ -1747,7 +1889,7 @@
       "Outputs": [
         "Builds/Build1/Incendiary Massacre_Data/Managed/System.dll"
       ],
-      "DebugActionIndex": 119
+      "DebugActionIndex": 129
     },
     {
       "Annotation": "CopyFiles Builds/Build1/Incendiary Massacre_Data/Managed/mscorlib.dll",
@@ -1759,20 +1901,188 @@
       "Outputs": [
         "Builds/Build1/Incendiary Massacre_Data/Managed/mscorlib.dll"
       ],
-      "DebugActionIndex": 120
+      "DebugActionIndex": 130
+    },
+    {
+      "Annotation": "GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker",
+      "DisplayName": "Running Burst Compiler",
+      "ActionType": "RunRPCCommand",
+      "PayloadOffset": 17771,
+      "PayloadLength": 16233,
+      "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Da",
+      "Action": "GenerateNativePluginsForAssemblies",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ARModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AccessibilityModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AndroidJNIModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AnimationModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AssetBundleModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AudioModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClothModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterInputModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterRendererModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ContentLoadModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CoreModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CrashReportingModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.DSPGraphModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.DirectorModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GIModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GameCenterModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GridModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.HotReloadModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.IMGUIModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ImageConversionModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.InputLegacyModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.InputModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.JSONSerializeModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.LocalizationModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.NVIDIAModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ParticleSystemModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PerformanceReportingModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.Physics2DModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PhysicsModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ProfilerModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PropertiesModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ScreenCaptureModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SharedInternalsModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SpriteMaskModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SpriteShapeModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.StreamingModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SubstanceModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SubsystemsModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TLSModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TerrainModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TerrainPhysicsModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextCoreFontEngineModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextCoreTextEngineModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextRenderingModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TilemapModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UIElementsModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UIModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UmbraModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityAnalyticsModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityConnectModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityCurlModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityTestProtocolModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VFXModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VRModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VehiclesModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VideoModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VirtualTexturingModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll",
+        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp-firstpass.dll",
+        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll",
+        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
+        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll",
+        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll",
+        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/Unity.Burst.dll",
+        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll",
+        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
+        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll",
+        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll",
+        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll",
+        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll",
+        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.dll",
+        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
+        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll",
+        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll",
+        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Assets/Plugins/Demigiant/DOTween/DOTween.dll",
+        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/PackageCache/com.unity.visualscripting@1.9.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
+        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/PackageCache/com.unity.burst@1.8.8/Unity.Burst.Unsafe.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Runtime.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/netstandard.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Mono.Security.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.ComponentModel.Composition.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Configuration.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Core.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Data.DataSetExtensions.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Data.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Drawing.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.EnterpriseServices.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.IO.Compression.FileSystem.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.IO.Compression.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Net.Http.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Numerics.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Runtime.Serialization.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Security.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.ServiceModel.Internals.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Transactions.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Xml.Linq.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Xml.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/mscorlib.dll",
+        "ProjectSettings/BurstAotSettings_StandaloneWindows.json",
+        "C:/Users/ogane/OneDrive/Documents/GitHub/Incendiary-Massacre/Library/PackageCache/com.unity.burst@1.8.8/.Runtime/bcl.exe"
+      ],
+      "Outputs": [],
+      "TargetDirectories": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinkerSymbols"
+      ],
+      "OverwriteOutputs": false,
+      "StatSignatures": [
+        {
+          "File": "Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker"
+        },
+        {
+          "File": "Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker/x86_64"
+        },
+        {
+          "File": "Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinkerSymbols"
+        }
+      ],
+      "GlobSignatures": [
+        {
+          "Path": "Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker"
+        },
+        {
+          "Path": "Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker/x86_64",
+          "Recurse": 1
+        },
+        {
+          "Path": "Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinkerSymbols",
+          "Recurse": 1
+        }
+      ],
+      "DebugActionIndex": 131
+    },
+    {
+      "Annotation": "CopyFiles Builds/Build1/Incendiary Massacre_Data/Plugins/x86_64/lib_burst_generated.dll",
+      "DisplayName": "Copying lib_burst_generated.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker/x86_64/lib_burst_generated.dll"
+      ],
+      "Outputs": [
+        "Builds/Build1/Incendiary Massacre_Data/Plugins/x86_64/lib_burst_generated.dll"
+      ],
+      "ToBuildDependencies": [
+        131
+      ],
+      "DebugActionIndex": 132
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info",
       "DisplayName": "Writing app.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 16381,
+      "PayloadOffset": 34093,
       "PayloadLength": 34,
       "PayloadDebugContentSnippet": "DefaultCompany\nIncendiary Mass",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info"
       ],
-      "DebugActionIndex": 121
+      "DebugActionIndex": 133
     },
     {
       "Annotation": "CopyFiles Builds/Build1/Incendiary Massacre_Data/app.info",
@@ -1785,9 +2095,9 @@
         "Builds/Build1/Incendiary Massacre_Data/app.info"
       ],
       "ToBuildDependencies": [
-        121
+        133
       ],
-      "DebugActionIndex": 122
+      "DebugActionIndex": 134
     },
     {
       "Annotation": "CopyFiles Builds/Build1/Incendiary Massacre_Data/Resources/unity default resources",
@@ -1799,7 +2109,7 @@
       "Outputs": [
         "Builds/Build1/Incendiary Massacre_Data/Resources/unity default resources"
       ],
-      "DebugActionIndex": 123
+      "DebugActionIndex": 135
     },
     {
       "Annotation": "CopyFiles Builds/Build1/Incendiary Massacre.exe",
@@ -1811,7 +2121,7 @@
       "Outputs": [
         "Builds/Build1/Incendiary Massacre.exe"
       ],
-      "DebugActionIndex": 124
+      "DebugActionIndex": 136
     },
     {
       "Annotation": "CopyFiles Builds/Build1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
@@ -1823,7 +2133,7 @@
       "Outputs": [
         "Builds/Build1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll"
       ],
-      "DebugActionIndex": 125
+      "DebugActionIndex": 137
     },
     {
       "Annotation": "CopyFiles Builds/Build1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
@@ -1835,7 +2145,7 @@
       "Outputs": [
         "Builds/Build1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll"
       ],
-      "DebugActionIndex": 126
+      "DebugActionIndex": 138
     },
     {
       "Annotation": "CopyFiles Builds/Build1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
@@ -1847,7 +2157,7 @@
       "Outputs": [
         "Builds/Build1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 127
+      "DebugActionIndex": 139
     },
     {
       "Annotation": "CopyFiles Builds/Build1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
@@ -1859,7 +2169,7 @@
       "Outputs": [
         "Builds/Build1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 128
+      "DebugActionIndex": 140
     },
     {
       "Annotation": "CopyFiles Builds/Build1/MonoBleedingEdge/etc/mono/2.0/machine.config",
@@ -1871,7 +2181,7 @@
       "Outputs": [
         "Builds/Build1/MonoBleedingEdge/etc/mono/2.0/machine.config"
       ],
-      "DebugActionIndex": 129
+      "DebugActionIndex": 141
     },
     {
       "Annotation": "CopyFiles Builds/Build1/MonoBleedingEdge/etc/mono/2.0/settings.map",
@@ -1883,7 +2193,7 @@
       "Outputs": [
         "Builds/Build1/MonoBleedingEdge/etc/mono/2.0/settings.map"
       ],
-      "DebugActionIndex": 130
+      "DebugActionIndex": 142
     },
     {
       "Annotation": "CopyFiles Builds/Build1/MonoBleedingEdge/etc/mono/2.0/web.config",
@@ -1895,7 +2205,7 @@
       "Outputs": [
         "Builds/Build1/MonoBleedingEdge/etc/mono/2.0/web.config"
       ],
-      "DebugActionIndex": 131
+      "DebugActionIndex": 143
     },
     {
       "Annotation": "CopyFiles Builds/Build1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
@@ -1907,7 +2217,7 @@
       "Outputs": [
         "Builds/Build1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 132
+      "DebugActionIndex": 144
     },
     {
       "Annotation": "CopyFiles Builds/Build1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
@@ -1919,7 +2229,7 @@
       "Outputs": [
         "Builds/Build1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 133
+      "DebugActionIndex": 145
     },
     {
       "Annotation": "CopyFiles Builds/Build1/MonoBleedingEdge/etc/mono/4.0/machine.config",
@@ -1931,7 +2241,7 @@
       "Outputs": [
         "Builds/Build1/MonoBleedingEdge/etc/mono/4.0/machine.config"
       ],
-      "DebugActionIndex": 134
+      "DebugActionIndex": 146
     },
     {
       "Annotation": "CopyFiles Builds/Build1/MonoBleedingEdge/etc/mono/4.0/settings.map",
@@ -1943,7 +2253,7 @@
       "Outputs": [
         "Builds/Build1/MonoBleedingEdge/etc/mono/4.0/settings.map"
       ],
-      "DebugActionIndex": 135
+      "DebugActionIndex": 147
     },
     {
       "Annotation": "CopyFiles Builds/Build1/MonoBleedingEdge/etc/mono/4.0/web.config",
@@ -1955,7 +2265,7 @@
       "Outputs": [
         "Builds/Build1/MonoBleedingEdge/etc/mono/4.0/web.config"
       ],
-      "DebugActionIndex": 136
+      "DebugActionIndex": 148
     },
     {
       "Annotation": "CopyFiles Builds/Build1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
@@ -1967,7 +2277,7 @@
       "Outputs": [
         "Builds/Build1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 137
+      "DebugActionIndex": 149
     },
     {
       "Annotation": "CopyFiles Builds/Build1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
@@ -1979,7 +2289,7 @@
       "Outputs": [
         "Builds/Build1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 138
+      "DebugActionIndex": 150
     },
     {
       "Annotation": "CopyFiles Builds/Build1/MonoBleedingEdge/etc/mono/4.5/machine.config",
@@ -1991,7 +2301,7 @@
       "Outputs": [
         "Builds/Build1/MonoBleedingEdge/etc/mono/4.5/machine.config"
       ],
-      "DebugActionIndex": 139
+      "DebugActionIndex": 151
     },
     {
       "Annotation": "CopyFiles Builds/Build1/MonoBleedingEdge/etc/mono/4.5/settings.map",
@@ -2003,7 +2313,7 @@
       "Outputs": [
         "Builds/Build1/MonoBleedingEdge/etc/mono/4.5/settings.map"
       ],
-      "DebugActionIndex": 140
+      "DebugActionIndex": 152
     },
     {
       "Annotation": "CopyFiles Builds/Build1/MonoBleedingEdge/etc/mono/4.5/web.config",
@@ -2015,7 +2325,7 @@
       "Outputs": [
         "Builds/Build1/MonoBleedingEdge/etc/mono/4.5/web.config"
       ],
-      "DebugActionIndex": 141
+      "DebugActionIndex": 153
     },
     {
       "Annotation": "CopyFiles Builds/Build1/MonoBleedingEdge/etc/mono/browscap.ini",
@@ -2027,7 +2337,7 @@
       "Outputs": [
         "Builds/Build1/MonoBleedingEdge/etc/mono/browscap.ini"
       ],
-      "DebugActionIndex": 142
+      "DebugActionIndex": 154
     },
     {
       "Annotation": "CopyFiles Builds/Build1/MonoBleedingEdge/etc/mono/config",
@@ -2039,7 +2349,7 @@
       "Outputs": [
         "Builds/Build1/MonoBleedingEdge/etc/mono/config"
       ],
-      "DebugActionIndex": 143
+      "DebugActionIndex": 155
     },
     {
       "Annotation": "CopyFiles Builds/Build1/MonoBleedingEdge/etc/mono/mconfig/config.xml",
@@ -2051,7 +2361,7 @@
       "Outputs": [
         "Builds/Build1/MonoBleedingEdge/etc/mono/mconfig/config.xml"
       ],
-      "DebugActionIndex": 144
+      "DebugActionIndex": 156
     },
     {
       "Annotation": "CopyFiles Builds/Build1/UnityCrashHandler64.exe",
@@ -2063,7 +2373,7 @@
       "Outputs": [
         "Builds/Build1/UnityCrashHandler64.exe"
       ],
-      "DebugActionIndex": 145
+      "DebugActionIndex": 157
     },
     {
       "Annotation": "CopyFiles Builds/Build1/UnityPlayer.dll",
@@ -2075,7 +2385,7 @@
       "Outputs": [
         "Builds/Build1/UnityPlayer.dll"
       ],
-      "DebugActionIndex": 146
+      "DebugActionIndex": 158
     },
     {
       "Annotation": "Player",
@@ -2201,6 +2511,7 @@
         118,
         119,
         120,
+        121,
         122,
         123,
         124,
@@ -2210,9 +2521,7 @@
         128,
         129,
         130,
-        131,
         132,
-        133,
         134,
         135,
         136,
@@ -2225,10 +2534,22 @@
         143,
         144,
         145,
-        146
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 147
+      "DebugActionIndex": 159
     }
   ],
   "FileSignatures": [
@@ -2427,9 +2748,13 @@
   "DigestCacheFileNameTmp": "Library/Bee/tundra.digestcache.tmp",
   "CachedNodeOutputDirectoryName": "Library/Bee/CachedNodeOutput",
   "EmitDataForBeeWhy": 0,
+  "DirectoriesCausingImplicitDependencies": [
+    "Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker",
+    "Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinkerSymbols"
+  ],
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 147
+          "Player": 159
         }
 ,  "DefaultNodes": [
     0
